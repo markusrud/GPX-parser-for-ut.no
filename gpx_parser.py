@@ -1,4 +1,3 @@
-GPX_file = "ut-no_kalhovd-turisthytte.gpx"
 Type = "DNT"
 Stafftype = "Betjent"
 Beds = 10
@@ -7,17 +6,19 @@ Lock = "Åpen"
 Season = "2. jun til 10. aug"
 
 #TODOs
-# - Load GPX file from file location
-# - Use data from cabins GPX file
 # - Load excel file
 # - Use data from Excel
 # - - Serach after filename and find correct row for the data
 # - Iterate over all files in the folder
+# - Add failcheck if not all files in folder are parsed correctly
+# - Add failcheck if not all rows in excel are parsed correctly
 
 from xml.dom import minidom
 from xml.etree import cElementTree as ET
 import datetime
 import os, glob
+import csv
+import numpy as np
 
 def createHeaderData(root):
     xml = root.createElement('gpx') 
@@ -60,73 +61,97 @@ def createElementAndAppend(root, elementName, elementText, appendTo):
 def main():
     root = minidom.Document()
     xml = createHeaderData(root)
-   
-    for filename in glob.glob(os.path.join('GPX_from_UT/', '*.gpx')):
-        name = ""
-        link = ""
-        lat = 0
-        lon = 0
 
-        #with open(os.path.join(os.getcwd(), filename), 'r') as f: # open in readonly mode
-        tree = ET.parse(filename)
-        for elem in tree.iter():
-            #print("Tag:", elem.tag, "Attr", elem.attrib, "Text:", elem.text)
-            if(elem.tag.find("name") != -1):
-                name = elem.text
-            if(elem.tag.find("link") != -1):
-                link = elem.get("href")
-            if(elem.tag.find("wpt") != -1):
-                lat = elem.get("lat")
-                lon = elem.get("lon")
+    with open('testfile.csv', newline='') as csvfile:
+        reader = csv.DictReader(csvfile)
+        #for row in reader:
+         #   print(row['Navn'], row['Beds'])
 
-    wpt = root.createElement('wpt')
-    wpt.setAttribute('lat', lat)
-    wpt.setAttribute('lon', lon)
-    xml.appendChild(wpt)
+        #value = next((item for item in reader if item["Navn"] == "Solheimstulen"), None)
+        #print(value['Navn'])
 
-    now = datetime.datetime.now()
-    createElementAndAppend(root, "time", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), wpt)
-    createElementAndAppend(root, "name", name, wpt)
-    createElementAndAppend(root, "cmt", "testdesc", wpt)
-    createElementAndAppend(root, "desc", "testdesc", wpt)
+        for filename in glob.glob(os.path.join('GPX_from_UT/', '*.gpx')):
+            name = ""
+            link = ""
+            lat = 0
+            lon = 0
 
-    x = root.createElement('link')
-    x.setAttribute('href', link)
-    wpt.appendChild(x)
+            #with open(os.path.join(os.getcwd(), filename), 'r') as f: # open in readonly mode
+            tree = ET.parse(filename)
+            for elem in tree.iter():
+                #print("Tag:", elem.tag, "Attr", elem.attrib, "Text:", elem.text)
+                if(elem.tag.find("name") != -1):
+                    name = elem.text
+                if(elem.tag.find("link") != -1):
+                    link = elem.get("href")
+                if(elem.tag.find("wpt") != -1):
+                    lat = elem.get("lat")
+                    lon = elem.get("lon")
 
-    createElementAndAppend(root, "sym", "Lodge", wpt)
-    createElementAndAppend(root, "type", "user", wpt)
+            stripped_filename = os.path.normpath(filename)
+            print(stripped_filename.split(os.sep)[1])
 
-    extensions= createLevel(root, "extensions", wpt)
-    gpxx_ext= createLevel(root, "gpxx:WaypointExtension", extensions)
+            value = next((item for item in reader if item["GPX_file"] == stripped_filename.split(os.sep)[1]), None)
+            print(value['Navn'])
 
-    createElementAndAppend(root, "gpxx:DisplayMode", "SymbolAndName", gpxx_ext)
+            wpt = root.createElement('wpt')
+            wpt.setAttribute('lat', lat)
+            wpt.setAttribute('lon', lon)
+            xml.appendChild(wpt)
 
-    gpxx_cat= createLevel(root, "gpxx:Categories", gpxx_ext)
+            now = datetime.datetime.now()
+            desc = "Senger: " + value['Beds'] + " | Sesong: " + value['Season'] + " | Annet: " + value['Other']
+            createElementAndAppend(root, "time", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), wpt)
+            createElementAndAppend(root, "name", name, wpt)
+            createElementAndAppend(root, "cmt", desc, wpt)
+            createElementAndAppend(root, "desc", desc, wpt)
 
-    createElementAndAppend(root, "gpxx:Category", "Hardangervidda", gpxx_cat)
-    createElementAndAppend(root, "gpxx:Category", "Betjent", gpxx_cat)
+            x = root.createElement('link')
+            x.setAttribute('href', link)
+            wpt.appendChild(x)
 
-    wptx1_ext= createLevel(root, "wptx1:WaypointExtension", extensions)
+            if (value['Type'] == "Depo"):
+                createElementAndAppend(root, "sym", "Geocache", wpt)
+            elif (value['Type'] == "Butikk"):
+                createElementAndAppend(root, "sym", "Shopping Center", wpt)
+            else:
+                createElementAndAppend(root, "sym", "Lodge", wpt)
+                
+            createElementAndAppend(root, "type", "user", wpt)
 
-    createElementAndAppend(root, "wptx1:DisplayMode", "SymbolAndName", wptx1_ext)
+            extensions= createLevel(root, "extensions", wpt)
+            gpxx_ext= createLevel(root, "gpxx:WaypointExtension", extensions)
 
-    wptx1_cat= createLevel(root, "wptx1:Categories", wptx1_ext)
+            createElementAndAppend(root, "gpxx:DisplayMode", "SymbolAndName", gpxx_ext)
 
-    createElementAndAppend(root, "wptx1:Category", "Hardangervidda", wptx1_cat)
-    createElementAndAppend(root, "wptx1:Category", "Betjent", wptx1_cat)
+            gpxx_cat= createLevel(root, "gpxx:Categories", gpxx_ext)
 
-    ctx_ext= createLevel(root, "ctx:CreationTimeExtension", extensions)
+            createElementAndAppend(root, "gpxx:Category", value['Type'], gpxx_cat)
+            createElementAndAppend(root, "gpxx:Category", value['Stafftype'], gpxx_cat)
+            createElementAndAppend(root, "gpxx:Category", value['Lock'], gpxx_cat)
+            createElementAndAppend(root, "gpxx:Category", value['Area'], gpxx_cat)
 
-    createElementAndAppend(root, "ctx:CreationTime", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), ctx_ext)
+            wptx1_ext= createLevel(root, "wptx1:WaypointExtension", extensions)
 
-    xml_str = root.toprettyxml(indent ="\t") 
-    
-    save_path_file = "testfile.gpx"
-    print("Hello2")
-    
-    with open(save_path_file, "w") as f:
-        f.write(xml_str) 
+            createElementAndAppend(root, "wptx1:DisplayMode", "SymbolAndName", wptx1_ext)
+
+            wptx1_cat= createLevel(root, "wptx1:Categories", wptx1_ext)
+
+            createElementAndAppend(root, "wptx1:Category", value['Type'], wptx1_cat)
+            createElementAndAppend(root, "wptx1:Category", value['Stafftype'], wptx1_cat)
+            createElementAndAppend(root, "wptx1:Category", value['Lock'], wptx1_cat)
+            createElementAndAppend(root, "wptx1:Category", value['Area'], wptx1_cat)
+
+            ctx_ext= createLevel(root, "ctx:CreationTimeExtension", extensions)
+
+            createElementAndAppend(root, "ctx:CreationTime", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), ctx_ext)
+
+            xml_str = root.toprettyxml(indent ="\t") 
+            
+            save_path_file = "testfile.gpx"
+            
+            with open(save_path_file, "w") as f:
+                f.write(xml_str) 
 
 
 
