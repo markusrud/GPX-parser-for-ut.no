@@ -1,15 +1,4 @@
-Type = "DNT"
-Stafftype = "Betjent"
-Beds = 10
-Area = "Hardangervidda"
-Lock = "Åpen"
-Season = "2. jun til 10. aug"
-
 #TODOs
-# - Load excel file
-# - Use data from Excel
-# - - Serach after filename and find correct row for the data
-# - Iterate over all files in the folder
 # - Add failcheck if not all files in folder are parsed correctly
 # - Add failcheck if not all rows in excel are parsed correctly
 
@@ -55,7 +44,14 @@ def createElementAndAppend(root, elementName, elementText, appendTo):
     appendTo.appendChild(elementHeader)
 
 
-#def parserloop(level):
+def addExtensionData(root, data, elementHeader, appendTo):
+    extension = createLevel(root, elementHeader + ":WaypointExtension", appendTo)
+    createElementAndAppend(root, elementHeader + ":DisplayMode", "SymbolAndName", extension)
+    category = createLevel(root, elementHeader + ":Categories", extension)
+    createElementAndAppend(root, elementHeader + ":Category", data['Type'], category)
+    createElementAndAppend(root, elementHeader + ":Category", data['Stafftype'], category)
+    createElementAndAppend(root, elementHeader + ":Category", data['Lock'], category)
+    createElementAndAppend(root, elementHeader + ":Category", data['Area'], category)
 
 
 def main():
@@ -120,27 +116,9 @@ def main():
             createElementAndAppend(root, "type", "user", wpt)
 
             extensions= createLevel(root, "extensions", wpt)
-            gpxx_ext= createLevel(root, "gpxx:WaypointExtension", extensions)
 
-            createElementAndAppend(root, "gpxx:DisplayMode", "SymbolAndName", gpxx_ext)
-
-            gpxx_cat= createLevel(root, "gpxx:Categories", gpxx_ext)
-
-            createElementAndAppend(root, "gpxx:Category", value['Type'], gpxx_cat)
-            createElementAndAppend(root, "gpxx:Category", value['Stafftype'], gpxx_cat)
-            createElementAndAppend(root, "gpxx:Category", value['Lock'], gpxx_cat)
-            createElementAndAppend(root, "gpxx:Category", value['Area'], gpxx_cat)
-
-            wptx1_ext= createLevel(root, "wptx1:WaypointExtension", extensions)
-
-            createElementAndAppend(root, "wptx1:DisplayMode", "SymbolAndName", wptx1_ext)
-
-            wptx1_cat= createLevel(root, "wptx1:Categories", wptx1_ext)
-
-            createElementAndAppend(root, "wptx1:Category", value['Type'], wptx1_cat)
-            createElementAndAppend(root, "wptx1:Category", value['Stafftype'], wptx1_cat)
-            createElementAndAppend(root, "wptx1:Category", value['Lock'], wptx1_cat)
-            createElementAndAppend(root, "wptx1:Category", value['Area'], wptx1_cat)
+            addExtensionData(root, value, "gpxx", extensions)
+            addExtensionData(root, value, "wptx1", extensions)
 
             ctx_ext= createLevel(root, "ctx:CreationTimeExtension", extensions)
 
@@ -152,9 +130,6 @@ def main():
             
             with open(save_path_file, "w") as f:
                 f.write(xml_str) 
-
-
-
 
 if __name__ == "__main__":
     main()
