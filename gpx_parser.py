@@ -9,11 +9,16 @@ Season = "2. jun til 10. aug"
 from xml.dom import minidom
 import datetime
 
+def createLevel(root, levelName, appenTo):
+    level = root.createElement(levelName)  
+    appenTo.appendChild(level)
+    return level
+
 def createElementAndAppent(root, elementName, elementText, appendTo):
     elementHeader = root.createElement(elementName)
     txt = root.createTextNode(elementText)  
     elementHeader.appendChild(txt) 
-    appendTo.appendChild(elementHeader) 
+    appendTo.appendChild(elementHeader)
 
 
 def main():
@@ -58,34 +63,26 @@ def main():
     createElementAndAppent(root, "sym", "Lodge", wpt)
     createElementAndAppent(root, "type", "user", wpt)
 
-    ext = root.createElement("extensions")  
-    wpt.appendChild(ext)
-
-    gpxx_ext = root.createElement("gpxx:WaypointExtension")  
-    ext.appendChild(gpxx_ext)
+    extensions= createLevel(root, "extensions", wpt)
+    gpxx_ext= createLevel(root, "gpxx:WaypointExtension", extensions)
 
     createElementAndAppent(root, "gpxx:DisplayMode", "SymbolAndName", gpxx_ext)
 
-    gpxx_cat = root.createElement("gpxx:Categories")  
-    gpxx_ext.appendChild(gpxx_cat)
+    gpxx_cat= createLevel(root, "gpxx:Categories", gpxx_ext)
 
     createElementAndAppent(root, "gpxx:Category", "Hardangervidda", gpxx_cat)
     createElementAndAppent(root, "gpxx:Category", "Betjent", gpxx_cat)
 
-
-    wptx1_ext = root.createElement("wptx1:WaypointExtension")  
-    ext.appendChild(wptx1_ext)
+    wptx1_ext= createLevel(root, "wptx1:WaypointExtension", extensions)
 
     createElementAndAppent(root, "wptx1:DisplayMode", "SymbolAndName", wptx1_ext)
 
-    wptx1_cat = root.createElement("wptx1:Categories")  
-    wptx1_ext.appendChild(wptx1_cat)
+    wptx1_cat= createLevel(root, "wptx1:Categories", wptx1_ext)
 
     createElementAndAppent(root, "wptx1:Category", "Hardangervidda", wptx1_cat)
     createElementAndAppent(root, "wptx1:Category", "Betjent", wptx1_cat)
 
-    ctx_ext = root.createElement("ctx:CreationTimeExtension")  
-    ext.appendChild(ctx_ext)
+    ctx_ext= createLevel(root, "ctx:CreationTimeExtension", extensions)
 
     createElementAndAppent(root, "ctx:CreationTime", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), ctx_ext)
 
