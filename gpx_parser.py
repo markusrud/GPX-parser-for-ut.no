@@ -59,106 +59,87 @@ def main():
     xml_arr = {}
     filelist = []
 
-    
-
-    with open('testfile.csv', newline='') as csvfile:
+    with open('testfile2.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for line in reader:
-            #print(line['Area'])
-            if not line['Area'] in root_arr:
-                root = minidom.Document()
-                xml = createHeaderData(root)
-                root_arr[line['Area']] = root
-                xml_arr[line['Area']] = xml
-                #print(root_arr)
-
-        #value = next((item for item in reader if item["Navn"] == "Solheimstulen"), None)
-        #print(value['Navn'])
-
-        #for filename in glob.glob(os.path.join('GPX_from_UT/', '*.gpx')):
             try:
-                gpxfile = open(os.path.join('GPX_from_UT', line['GPX_file'] + '.gpx'), newline='')        
-            except FileNotFoundError:
-                print("WARNING: Metadata filename was not found in directory: " + line['GPX_file'])
-                continue
+                if not line['Area'] in root_arr:
+                    root = minidom.Document()
+                    xml = createHeaderData(root)
+                    root_arr[line['Area']] = root
+                    xml_arr[line['Area']] = xml
 
-            name = ""
-            link = ""
-            lat = 0
-            lon = 0
-
-            #with open(os.path.join(os.getcwd(), filename), 'r') as f: # open in readonly mode
-            tree = ET.parse(gpxfile)
-            for elem in tree.iter():
-                #print("Tag:", elem.tag, "Attr", elem.attrib, "Text:", elem.text)
-                if(elem.tag.find("name") != -1):
-                    name = elem.text
-                if(elem.tag.find("link") != -1):
-                    link = elem.get("href")
-                if(elem.tag.find("wpt") != -1):
-                    lat = elem.get("lat")
-                    lon = elem.get("lon")
-
-            gpxfile.close()
-            # normalized_filename = os.path.normpath(filename)
-            # onlyFileNameAndType = normalized_filename.split(os.sep)[1]
-            # onlyFileName = (os.path.splitext(onlyFileNameAndType)[0])
-            # print(onlyFileName)
-
-            # for line in reader:
-            #     print("FOR:", line["GPX_file"])
-            #     if line["GPX_file"] == onlyFileName:
-            #         print("SUB:", line)     
-
-            # value = next((item for item in reader if item["GPX_file"] == onlyFileName), None)
-            # if (value == None):
-            #     print("Metadata for GPX file ", onlyFileName, " not found in csv file")
-            #     continue
-
-            wpt = root_arr[line['Area']].createElement('wpt')
-            wpt.setAttribute('lat', lat)
-            wpt.setAttribute('lon', lon)
-            xml_arr[line['Area']].appendChild(wpt)
-
-            now = datetime.datetime.now()
-            desc = "Senger: " + line['Beds'] + " | Sesong: " + line['Season'] + " | Annet: " + line['Other']
-            createElementAndAppend(root_arr[line['Area']], "time", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), wpt)
-            createElementAndAppend(root_arr[line['Area']], "name", name, wpt)
-            createElementAndAppend(root_arr[line['Area']], "cmt", desc, wpt)
-            createElementAndAppend(root_arr[line['Area']], "desc", desc, wpt)
-
-            x = root_arr[line['Area']].createElement('link')
-            x.setAttribute('href', link)
-            wpt.appendChild(x)
-
-            if (line['Type'] == "Depo"):
-                createElementAndAppend(root_arr[line['Area']], "sym", "Geocache", wpt)
-            elif (line['Type'] == "Butikk"):
-                createElementAndAppend(root_arr[line['Area']], "sym", "Shopping Center", wpt)
-            else:
-                createElementAndAppend(root_arr[line['Area']], "sym", "Lodge", wpt)
-                
-            createElementAndAppend(root_arr[line['Area']], "type", "user", wpt)
-
-            extensions= createLevel(root_arr[line['Area']], "extensions", wpt)
-
-            addExtensionData(root_arr[line['Area']], line, "gpxx", extensions)
-            addExtensionData(root_arr[line['Area']], line, "wptx1", extensions)
-
-            ctx_ext= createLevel(root_arr[line['Area']], "ctx:CreationTimeExtension", extensions)
-
-            createElementAndAppend(root_arr[line['Area']], "ctx:CreationTime", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), ctx_ext)
                 filelist.append(line['GPX_file'])
+
+                try:
+                    gpxfile = open(os.path.join('GPX_from_UT', line['GPX_file'] + '.gpx'), newline='')        
+                except FileNotFoundError:
+                    print("WARNING: Metadata filename was not found in directory: " + line['GPX_file'])
+                    continue
+
+                name = ""
+                link = ""
+                lat = 0
+                lon = 0
+
+                tree = ET.parse(gpxfile)
+                for elem in tree.iter():
+                    if(elem.tag.find("name") != -1):
+                        name = elem.text
+                    if(elem.tag.find("link") != -1):
+                        link = elem.get("href")
+                    if(elem.tag.find("wpt") != -1):
+                        lat = elem.get("lat")
+                        lon = elem.get("lon")
+
+                gpxfile.close()
+
+                wpt = root_arr[line['Area']].createElement('wpt')
+                wpt.setAttribute('lat', lat)
+                wpt.setAttribute('lon', lon)
+                xml_arr[line['Area']].appendChild(wpt)
+
+                now = datetime.datetime.now()
+                desc = "Senger: " + line['Beds'] + " | Sesong: " + line['Season'] + " | Annet: " + line['Other']
+                createElementAndAppend(root_arr[line['Area']], "time", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), wpt)
+                createElementAndAppend(root_arr[line['Area']], "name", name, wpt)
+                createElementAndAppend(root_arr[line['Area']], "cmt", desc, wpt)
+                createElementAndAppend(root_arr[line['Area']], "desc", desc, wpt)
+
+                x = root_arr[line['Area']].createElement('link')
+                x.setAttribute('href', link)
+                wpt.appendChild(x)
+
+                if (line['Type'] == "Depo"):
+                    createElementAndAppend(root_arr[line['Area']], "sym", "Geocache", wpt)
+                elif (line['Type'] == "Butikk"):
+                    createElementAndAppend(root_arr[line['Area']], "sym", "Shopping Center", wpt)
+                else:
+                    createElementAndAppend(root_arr[line['Area']], "sym", "Lodge", wpt)
+                    
+                createElementAndAppend(root_arr[line['Area']], "type", "user", wpt)
+
+                extensions= createLevel(root_arr[line['Area']], "extensions", wpt)
+
+                addExtensionData(root_arr[line['Area']], line, "gpxx", extensions)
+                addExtensionData(root_arr[line['Area']], line, "wptx1", extensions)
+
+                ctx_ext= createLevel(root_arr[line['Area']], "ctx:CreationTimeExtension", extensions)
+
+                createElementAndAppend(root_arr[line['Area']], "ctx:CreationTime", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), ctx_ext)
+            except:
+                print("WARNING: Some error processing data from:", line['GPX_file'])
 
     for key in root_arr:
         xml_str = root_arr[key].toprettyxml(indent ="\t")     
 
-        print(key)
+        #print(key)
         save_path_file = os.path.join('fixedGPX', key + '.gpx')
             
         with open(save_path_file, "w") as f:
             f.write(xml_str) 
 
+  
     for filename in glob.glob(os.path.join('GPX_from_UT/', '*.gpx')):
         normalized_filename = os.path.normpath(filename)
         onlyFileNameAndType = normalized_filename.split(os.sep)[1]
