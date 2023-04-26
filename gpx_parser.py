@@ -5,9 +5,8 @@
 from xml.dom import minidom
 from xml.etree import cElementTree as ET
 import datetime
-import os, glob
+import os
 import csv
-import numpy as np
 
 def createHeaderData(root):
     xml = root.createElement('gpx') 
@@ -57,23 +56,31 @@ def addExtensionData(root, data, elementHeader, appendTo):
 def main():
     root = minidom.Document()
     xml = createHeaderData(root)
+    dict = {}
 
     with open('testfile.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
-        #for row in reader:
-         #   print(row['Navn'], row['Beds'])
+        dict = reader
+        for line in reader:
+            #print(line['GPX_file'])
 
         #value = next((item for item in reader if item["Navn"] == "Solheimstulen"), None)
         #print(value['Navn'])
 
-        for filename in glob.glob(os.path.join('GPX_from_UT/', '*.gpx')):
+        #for filename in glob.glob(os.path.join('GPX_from_UT/', '*.gpx')):
+            try:
+                gpxfile = open(os.path.join('GPX_from_UT', line['GPX_file'] + '.gpx'), newline='')        
+            except FileNotFoundError:
+                print("WARNING: Metadata filename was not found in directory: " + line['GPX_file'])
+                continue
+
             name = ""
             link = ""
             lat = 0
             lon = 0
 
             #with open(os.path.join(os.getcwd(), filename), 'r') as f: # open in readonly mode
-            tree = ET.parse(filename)
+            tree = ET.parse(gpxfile)
             for elem in tree.iter():
                 #print("Tag:", elem.tag, "Attr", elem.attrib, "Text:", elem.text)
                 if(elem.tag.find("name") != -1):
@@ -84,11 +91,20 @@ def main():
                     lat = elem.get("lat")
                     lon = elem.get("lon")
 
-            stripped_filename = os.path.normpath(filename)
-            print(stripped_filename.split(os.sep)[1])
+            # normalized_filename = os.path.normpath(filename)
+            # onlyFileNameAndType = normalized_filename.split(os.sep)[1]
+            # onlyFileName = (os.path.splitext(onlyFileNameAndType)[0])
+            # print(onlyFileName)
 
-            value = next((item for item in reader if item["GPX_file"] == stripped_filename.split(os.sep)[1]), None)
-            print(value['Navn'])
+            # for line in reader:
+            #     print("FOR:", line["GPX_file"])
+            #     if line["GPX_file"] == onlyFileName:
+            #         print("SUB:", line)     
+
+            # value = next((item for item in reader if item["GPX_file"] == onlyFileName), None)
+            # if (value == None):
+            #     print("Metadata for GPX file ", onlyFileName, " not found in csv file")
+            #     continue
 
             wpt = root.createElement('wpt')
             wpt.setAttribute('lat', lat)
@@ -96,7 +112,7 @@ def main():
             xml.appendChild(wpt)
 
             now = datetime.datetime.now()
-            desc = "Senger: " + value['Beds'] + " | Sesong: " + value['Season'] + " | Annet: " + value['Other']
+            desc = "Senger: " + line['Beds'] + " | Sesong: " + line['Season'] + " | Annet: " + line['Other']
             createElementAndAppend(root, "time", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), wpt)
             createElementAndAppend(root, "name", name, wpt)
             createElementAndAppend(root, "cmt", desc, wpt)
@@ -106,9 +122,9 @@ def main():
             x.setAttribute('href', link)
             wpt.appendChild(x)
 
-            if (value['Type'] == "Depo"):
+            if (line['Type'] == "Depo"):
                 createElementAndAppend(root, "sym", "Geocache", wpt)
-            elif (value['Type'] == "Butikk"):
+            elif (line['Type'] == "Butikk"):
                 createElementAndAppend(root, "sym", "Shopping Center", wpt)
             else:
                 createElementAndAppend(root, "sym", "Lodge", wpt)
@@ -117,8 +133,8 @@ def main():
 
             extensions= createLevel(root, "extensions", wpt)
 
-            addExtensionData(root, value, "gpxx", extensions)
-            addExtensionData(root, value, "wptx1", extensions)
+            addExtensionData(root, line, "gpxx", extensions)
+            addExtensionData(root, line, "wptx1", extensions)
 
             ctx_ext= createLevel(root, "ctx:CreationTimeExtension", extensions)
 
@@ -130,6 +146,9 @@ def main():
             
             with open(save_path_file, "w") as f:
                 f.write(xml_str) 
+
+
+
 
 if __name__ == "__main__":
     main()
