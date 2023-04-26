@@ -1,6 +1,24 @@
-#TODOs
-# - Add failcheck if not all files in folder are parsed correctly
-# - Add failcheck if not all rows in excel are parsed correctly
+#######################################################################
+# FILENAME : gpx_parser.py
+#
+# DESCRIPTION : This script parses GPX files from ut.no and 
+#   merges data from those files with metadata stored in a 
+#   csv file. The data is parsed into a new GPX file whilch 
+#   is readable by Garmins Basecamp
+#
+# NOTES :
+#    The script requires 3 inputs in the code:
+
+metadataFile = 'testfile2.csv'  # Filename of the csv file containing metadata
+cabinGpxFolder = 'GPX_from_UT'  # Foldername of the folder where the GPX files from ut.no is stored
+processedGpxFolder = 'fixedGPX' # Foldername for where the new processed GPX files will be stored
+
+#
+# AUTHOR :    Markus Rud        Initially released: XX.XX.2023
+#
+# CHANGES :
+#
+#######################################################################
 
 from xml.dom import minidom
 from xml.etree import cElementTree as ET
@@ -59,7 +77,7 @@ def main():
     xml_arr = {}
     filelist = []
 
-    with open('testfile2.csv', newline='') as csvfile:
+    with open(metadataFile, newline='') as csvfile:
         reader = csv.DictReader(csvfile)
         for line in reader:
             try:
@@ -72,7 +90,7 @@ def main():
                 filelist.append(line['GPX_file'])
 
                 try:
-                    gpxfile = open(os.path.join('GPX_from_UT', line['GPX_file'] + '.gpx'), newline='')        
+                    gpxfile = open(os.path.join(cabinGpxFolder, line['GPX_file'] + '.gpx'), newline='')        
                 except FileNotFoundError:
                     print("WARNING: Metadata filename was not found in directory: " + line['GPX_file'])
                     continue
@@ -130,28 +148,26 @@ def main():
             except:
                 print("WARNING: Some error processing data from:", line['GPX_file'])
 
+    if not os.path.exists(processedGpxFolder):
+            os.makedirs(processedGpxFolder)
+
     for key in root_arr:
         xml_str = root_arr[key].toprettyxml(indent ="\t")     
 
-        #print(key)
-        save_path_file = os.path.join('fixedGPX', key + '.gpx')
+        save_path_file = os.path.join(processedGpxFolder, key + '.gpx')
             
         with open(save_path_file, "w") as f:
             f.write(xml_str) 
 
-  
-    for filename in glob.glob(os.path.join('GPX_from_UT/', '*.gpx')):
+    for filename in glob.glob(os.path.join(cabinGpxFolder, '*.gpx')):
         normalized_filename = os.path.normpath(filename)
         onlyFileNameAndType = normalized_filename.split(os.sep)[1]
         onlyFileName = (os.path.splitext(onlyFileNameAndType)[0])
-        #print(onlyFileName)
         
         try:
             filelist.index(onlyFileName)
         except ValueError:
             print("WARNING: GPX file not found in metadata: " + onlyFileName)
-
-
 
 if __name__ == "__main__":
     main()
