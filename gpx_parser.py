@@ -10,9 +10,9 @@
 # NOTES :
 #    The script requires 3 inputs in the code:
 
-metadataFile = 'testfile2.csv'  # Filename of the csv file containing metadata
+metadataFile = 'exampleMetadata.csv'  # Filename of the csv file containing metadata
 cabinGpxFolder = 'GPX_from_UT'  # Foldername of the folder where the GPX files from ut.no is stored
-processedGpxFolder = 'fixedGPX' # Foldername for where the new processed GPX files will be stored
+processedGpxFolder = 'parsed_GPX' # Foldername for where the new processed GPX files will be stored
 
 #
 # AUTHOR :    Markus Rud        Initially released: XX.XX.2023
