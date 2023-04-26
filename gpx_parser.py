@@ -4,7 +4,8 @@
 # DESCRIPTION : This script parses GPX files from ut.no and 
 #   merges data from those files with metadata stored in a 
 #   csv file. The data is parsed into a new GPX file whilch 
-#   is readable by Garmins Basecamp
+#   is readable by Garmins Basecamp. Separate new GPX files
+#   are created for each area in the metadata.
 #
 # NOTES :
 #    The script requires 3 inputs in the code:
@@ -26,6 +27,10 @@ import datetime
 import os, glob
 import csv
 
+# This function adds various headerdata. How much of this which actually 
+#   are needed is uncertain as it is gotten from an export of waypoints 
+#   from Basecamp. However some of it is needed as Basecamp rejects the 
+#   import with all the links removed
 def createHeaderData(root):
     xml = root.createElement('gpx') 
     xml.setAttribute('creator', 'Garmin Desktop App')
@@ -49,18 +54,20 @@ def createHeaderData(root):
     root.appendChild(xml)
     return xml
 
+# Function to create new level in XML/GPX hiearcy
 def createLevel(root, levelName, appenTo):
     level = root.createElement(levelName)  
     appenTo.appendChild(level)
     return level
 
+# Function to create XML element with data and also add it to the parent element
 def createElementAndAppend(root, elementName, elementText, appendTo):
     elementHeader = root.createElement(elementName)
     txt = root.createTextNode(elementText)  
     elementHeader.appendChild(txt) 
     appendTo.appendChild(elementHeader)
 
-
+# Function to add custom extension data used in Basecamp
 def addExtensionData(root, data, elementHeader, appendTo):
     extension = createLevel(root, elementHeader + ":WaypointExtension", appendTo)
     createElementAndAppend(root, elementHeader + ":DisplayMode", "SymbolAndName", extension)
@@ -73,22 +80,24 @@ def addExtensionData(root, data, elementHeader, appendTo):
 
 def main():
 
-    root_arr = {}
-    xml_arr = {}
-    filelist = []
+    root_arr = {}           # Array for each areas root element
+    xml_arr = {}            # Array for each areas xml element
+    filesInMetaData = []    # List of all files in metadata csv, used for verifying that all files are processed
 
     with open(metadataFile, newline='') as csvfile:
-        reader = csv.DictReader(csvfile)
-        for line in reader:
+        metadata = csv.DictReader(csvfile)
+        for line in metadata:
             try:
                 if not line['Area'] in root_arr:
+                    # Create new XML structure for new area
                     root = minidom.Document()
                     xml = createHeaderData(root)
                     root_arr[line['Area']] = root
                     xml_arr[line['Area']] = xml
 
-                filelist.append(line['GPX_file'])
+                filesInMetaData.append(line['GPX_file'])
 
+            # Open GPX file for current linw/row in the metadata
                 try:
                     gpxfile = open(os.path.join(cabinGpxFolder, line['GPX_file'] + '.gpx'), newline='')        
                 except FileNotFoundError:
@@ -100,6 +109,7 @@ def main():
                 lat = 0
                 lon = 0
 
+            # Extract desired data from cabins GPX file
                 tree = ET.parse(gpxfile)
                 for elem in tree.iter():
                     if(elem.tag.find("name") != -1):
@@ -112,32 +122,34 @@ def main():
 
                 gpxfile.close()
 
-                wpt = root_arr[line['Area']].createElement('wpt')
-                wpt.setAttribute('lat', lat)
-                wpt.setAttribute('lon', lon)
-                xml_arr[line['Area']].appendChild(wpt)
+            # Start building new GPX XML structure with parsed data
+                waypoint = root_arr[line['Area']].createElement('wpt')
+                waypoint.setAttribute('lat', lat)
+                waypoint.setAttribute('lon', lon)
+                xml_arr[line['Area']].appendChild(waypoint)
 
                 now = datetime.datetime.now()
                 desc = "Senger: " + line['Beds'] + " | Sesong: " + line['Season'] + " | Annet: " + line['Other']
-                createElementAndAppend(root_arr[line['Area']], "time", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), wpt)
-                createElementAndAppend(root_arr[line['Area']], "name", name, wpt)
-                createElementAndAppend(root_arr[line['Area']], "cmt", desc, wpt)
-                createElementAndAppend(root_arr[line['Area']], "desc", desc, wpt)
+                createElementAndAppend(root_arr[line['Area']], "time", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), waypoint)
+                createElementAndAppend(root_arr[line['Area']], "name", name, waypoint)
+                createElementAndAppend(root_arr[line['Area']], "cmt", desc, waypoint)
+                createElementAndAppend(root_arr[line['Area']], "desc", desc, waypoint)
 
                 x = root_arr[line['Area']].createElement('link')
                 x.setAttribute('href', link)
-                wpt.appendChild(x)
+                waypoint.appendChild(x)
 
+                # Set proper display icon based on type of GPX location
                 if (line['Type'] == "Depo"):
-                    createElementAndAppend(root_arr[line['Area']], "sym", "Geocache", wpt)
+                    createElementAndAppend(root_arr[line['Area']], "sym", "Geocache", waypoint)
                 elif (line['Type'] == "Butikk"):
-                    createElementAndAppend(root_arr[line['Area']], "sym", "Shopping Center", wpt)
+                    createElementAndAppend(root_arr[line['Area']], "sym", "Shopping Center", waypoint)
                 else:
-                    createElementAndAppend(root_arr[line['Area']], "sym", "Lodge", wpt)
+                    createElementAndAppend(root_arr[line['Area']], "sym", "Lodge", waypoint)
                     
-                createElementAndAppend(root_arr[line['Area']], "type", "user", wpt)
+                createElementAndAppend(root_arr[line['Area']], "type", "user", waypoint)
 
-                extensions= createLevel(root_arr[line['Area']], "extensions", wpt)
+                extensions= createLevel(root_arr[line['Area']], "extensions", waypoint)
 
                 addExtensionData(root_arr[line['Area']], line, "gpxx", extensions)
                 addExtensionData(root_arr[line['Area']], line, "wptx1", extensions)
@@ -148,9 +160,11 @@ def main():
             except:
                 print("WARNING: Some error processing data from:", line['GPX_file'])
 
+    # Create folder for storing new GPX files if it does not exists
     if not os.path.exists(processedGpxFolder):
             os.makedirs(processedGpxFolder)
 
+    # Iterate over all areas and write XML structure to GPX file
     for key in root_arr:
         xml_str = root_arr[key].toprettyxml(indent ="\t")     
 
@@ -159,15 +173,17 @@ def main():
         with open(save_path_file, "w") as f:
             f.write(xml_str) 
 
+    # Iterate over all GPX files from ut.no and check that they were mentioned in the metadata
     for filename in glob.glob(os.path.join(cabinGpxFolder, '*.gpx')):
         normalized_filename = os.path.normpath(filename)
         onlyFileNameAndType = normalized_filename.split(os.sep)[1]
         onlyFileName = (os.path.splitext(onlyFileNameAndType)[0])
         
         try:
-            filelist.index(onlyFileName)
+            filesInMetaData.index(onlyFileName)
         except ValueError:
             print("WARNING: GPX file not found in metadata: " + onlyFileName)
+
 
 if __name__ == "__main__":
     main()
