@@ -5,7 +5,7 @@
 from xml.dom import minidom
 from xml.etree import cElementTree as ET
 import datetime
-import os
+import os, glob
 import csv
 
 def createHeaderData(root):
@@ -57,7 +57,7 @@ def main():
 
     root_arr = {}
     xml_arr = {}
-    fileDict = {}
+    filelist = []
 
     
 
@@ -148,6 +148,7 @@ def main():
             ctx_ext= createLevel(root_arr[line['Area']], "ctx:CreationTimeExtension", extensions)
 
             createElementAndAppend(root_arr[line['Area']], "ctx:CreationTime", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), ctx_ext)
+                filelist.append(line['GPX_file'])
 
     for key in root_arr:
         xml_str = root_arr[key].toprettyxml(indent ="\t")     
@@ -158,6 +159,16 @@ def main():
         with open(save_path_file, "w") as f:
             f.write(xml_str) 
 
+    for filename in glob.glob(os.path.join('GPX_from_UT/', '*.gpx')):
+        normalized_filename = os.path.normpath(filename)
+        onlyFileNameAndType = normalized_filename.split(os.sep)[1]
+        onlyFileName = (os.path.splitext(onlyFileNameAndType)[0])
+        #print(onlyFileName)
+        
+        try:
+            filelist.index(onlyFileName)
+        except ValueError:
+            print("WARNING: GPX file not found in metadata: " + onlyFileName)
 
 
 
