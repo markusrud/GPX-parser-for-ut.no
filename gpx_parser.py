@@ -54,15 +54,23 @@ def addExtensionData(root, data, elementHeader, appendTo):
 
 
 def main():
-    root = minidom.Document()
-    xml = createHeaderData(root)
-    dict = {}
+
+    root_arr = {}
+    xml_arr = {}
+    fileDict = {}
+
+    
 
     with open('testfile.csv', newline='') as csvfile:
         reader = csv.DictReader(csvfile)
-        dict = reader
         for line in reader:
-            #print(line['GPX_file'])
+            #print(line['Area'])
+            if not line['Area'] in root_arr:
+                root = minidom.Document()
+                xml = createHeaderData(root)
+                root_arr[line['Area']] = root
+                xml_arr[line['Area']] = xml
+                #print(root_arr)
 
         #value = next((item for item in reader if item["Navn"] == "Solheimstulen"), None)
         #print(value['Navn'])
@@ -91,6 +99,7 @@ def main():
                     lat = elem.get("lat")
                     lon = elem.get("lon")
 
+            gpxfile.close()
             # normalized_filename = os.path.normpath(filename)
             # onlyFileNameAndType = normalized_filename.split(os.sep)[1]
             # onlyFileName = (os.path.splitext(onlyFileNameAndType)[0])
@@ -106,46 +115,48 @@ def main():
             #     print("Metadata for GPX file ", onlyFileName, " not found in csv file")
             #     continue
 
-            wpt = root.createElement('wpt')
+            wpt = root_arr[line['Area']].createElement('wpt')
             wpt.setAttribute('lat', lat)
             wpt.setAttribute('lon', lon)
-            xml.appendChild(wpt)
+            xml_arr[line['Area']].appendChild(wpt)
 
             now = datetime.datetime.now()
             desc = "Senger: " + line['Beds'] + " | Sesong: " + line['Season'] + " | Annet: " + line['Other']
-            createElementAndAppend(root, "time", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), wpt)
-            createElementAndAppend(root, "name", name, wpt)
-            createElementAndAppend(root, "cmt", desc, wpt)
-            createElementAndAppend(root, "desc", desc, wpt)
+            createElementAndAppend(root_arr[line['Area']], "time", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), wpt)
+            createElementAndAppend(root_arr[line['Area']], "name", name, wpt)
+            createElementAndAppend(root_arr[line['Area']], "cmt", desc, wpt)
+            createElementAndAppend(root_arr[line['Area']], "desc", desc, wpt)
 
-            x = root.createElement('link')
+            x = root_arr[line['Area']].createElement('link')
             x.setAttribute('href', link)
             wpt.appendChild(x)
 
             if (line['Type'] == "Depo"):
-                createElementAndAppend(root, "sym", "Geocache", wpt)
+                createElementAndAppend(root_arr[line['Area']], "sym", "Geocache", wpt)
             elif (line['Type'] == "Butikk"):
-                createElementAndAppend(root, "sym", "Shopping Center", wpt)
+                createElementAndAppend(root_arr[line['Area']], "sym", "Shopping Center", wpt)
             else:
-                createElementAndAppend(root, "sym", "Lodge", wpt)
+                createElementAndAppend(root_arr[line['Area']], "sym", "Lodge", wpt)
                 
-            createElementAndAppend(root, "type", "user", wpt)
+            createElementAndAppend(root_arr[line['Area']], "type", "user", wpt)
 
-            extensions= createLevel(root, "extensions", wpt)
+            extensions= createLevel(root_arr[line['Area']], "extensions", wpt)
 
-            addExtensionData(root, line, "gpxx", extensions)
-            addExtensionData(root, line, "wptx1", extensions)
+            addExtensionData(root_arr[line['Area']], line, "gpxx", extensions)
+            addExtensionData(root_arr[line['Area']], line, "wptx1", extensions)
 
-            ctx_ext= createLevel(root, "ctx:CreationTimeExtension", extensions)
+            ctx_ext= createLevel(root_arr[line['Area']], "ctx:CreationTimeExtension", extensions)
 
-            createElementAndAppend(root, "ctx:CreationTime", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), ctx_ext)
+            createElementAndAppend(root_arr[line['Area']], "ctx:CreationTime", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), ctx_ext)
 
-            xml_str = root.toprettyxml(indent ="\t") 
+    for key in root_arr:
+        xml_str = root_arr[key].toprettyxml(indent ="\t")     
+
+        print(key)
+        save_path_file = os.path.join('fixedGPX', key + '.gpx')
             
-            save_path_file = "testfile.gpx"
-            
-            with open(save_path_file, "w") as f:
-                f.write(xml_str) 
+        with open(save_path_file, "w") as f:
+            f.write(xml_str) 
 
 
 
