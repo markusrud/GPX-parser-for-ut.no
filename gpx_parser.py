@@ -129,7 +129,7 @@ def main():
                 xml_arr[line['Area']].appendChild(waypoint)
 
                 now = datetime.datetime.now()
-                desc = "Senger: " + line['Beds'] + " | Sesong: " + line['Season'] + " | Annet: " + line['Other']
+                desc = line['Type'] + " | " + line['Stafftype'] + " | Las: "  + line['Lock'] + " | Senger: " + line['Beds'] + " | Sesong: " + line['Season'] + " | Annet: " + line['Other']
                 createElementAndAppend(root_arr[line['Area']], "time", str(now.strftime("%Y-%m-%dT%H:%M:%SZ")), waypoint)
                 createElementAndAppend(root_arr[line['Area']], "name", name, waypoint)
                 createElementAndAppend(root_arr[line['Area']], "cmt", desc, waypoint)
