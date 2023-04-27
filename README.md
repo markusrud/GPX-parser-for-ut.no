@@ -39,15 +39,21 @@ The required metadata is given as a csv file with the following fields:
     - *This data gets added to the description of the waypoint*
 
 ### Example csv
-`Name,GPX_file,Type,Stafftype,Beds,Area,Lock,Season,Other
-Kalhovd Turisthytte,ut-no_kalhovd-turisthytte,DNT,Betjent,75,Hardangervidda,DNT-Nøkkel,Stengt mid okt til slutt feb,
-Gjendebu,ut-no_gjendebu,DNT,Betjent,119,Jotunheimen,Betjent,Stengt mid okt til slutt feb,
-Fondsbu,ut-no_fondsbu,DNT,Betjent,100,Jotunheimen,Åpen,Stengt mid okt til slutt feb,
-Kljåen,ut-no_kljen,DNT,Selvbetjent,8,Skarvheimen,DNT-Nøkkel,Stengt mid okt til slutt feb,
-Lågaros,ut-no_lgaros,DNT,Selvbetjent,38,Hardangervidda,DNT-Nøkkel,Stengt mid okt til slutt feb,
-Ljosland Fjellstove,ut-no_ljosland-fjellstove,Privat,Betjent,48,Setesdalsheiene,Åpen,Hele året,
-Solheimstulen,ut-no_solheimstulen,DNT,Betjent,60,Hardangervidda,Betjent,Usikkert,`
+Name,GPX_file,Type,Stafftype,Beds,Area,Lock,Season,Other
 
+Kalhovd Turisthytte,ut-no_kalhovd-turisthytte,DNT,Betjent,75,Hardangervidda,DNT-Nøkkel,Stengt mid okt til slutt feb,
+
+Gjendebu,ut-no_gjendebu,DNT,Betjent,119,Jotunheimen,Betjent,Stengt mid okt til slutt feb,
+
+Fondsbu,ut-no_fondsbu,DNT,Betjent,100,Jotunheimen,Åpen,Stengt mid okt til slutt feb,
+
+Kljåen,ut-no_kljen,DNT,Selvbetjent,8,Skarvheimen,DNT-Nøkkel,Stengt mid okt til slutt feb,
+
+Lågaros,ut-no_lgaros,DNT,Selvbetjent,38,Hardangervidda,DNT-Nøkkel,Stengt mid okt til slutt feb,
+
+Ljosland Fjellstove,ut-no_ljosland-fjellstove,Privat,Betjent,48,Setesdalsheiene,Åpen,Hele året,
+
+Solheimstulen,ut-no_solheimstulen,DNT,Betjent,60,Hardangervidda,Betjent,Usikkert,
 
 ## Using the script
 1. Download the GPX files from ut.no and fill ou trequired metadata for all desired huts
@@ -63,11 +69,17 @@ Solheimstulen,ut-no_solheimstulen,DNT,Betjent,60,Hardangervidda,Betjent,Usikkert
 
 
 ### File structure when running script
-|-- gpx_parser.py
-|-- metadata.csv
-|-- gpx_from_ut.no_folder
-|   |-- my_cabin_1.gpx
-|   |-- my_cabin_2.gpx
-|   |-- my_depot_1.gpx
+|--- gpx_parser.py
 
-DISCLAIMER: This is only a script I created before an expedition of walking across Norway, so it is only briefly tested and highly specialized on the current GPX format from ut.no and my metadata structure. So it may contain bugs and it is vulnerable if input data does not follow the same structure as my inputdata
+|--- metadata.csv
+
+|--- gpx_from_ut.no_folder
+
+|---|--- my_cabin_1.gpx
+
+|---|--- my_cabin_2.gpx
+
+|---|--- my_depot_1.gpx
+
+## DISCLAIMER: 
+This is only a script I created before an expedition of walking across Norway, so it is only briefly tested and highly specialized on the current GPX format from ut.no and my metadata structure. So it may contain bugs and it is vulnerable if input data does not follow the same structure as my inputdata. So I guarantee nothing regarding functionallity, but at least there are no known bugs at the moment :)
