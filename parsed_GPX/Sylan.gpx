@@ -1,0 +1,419 @@
+<?xml version="1.0" ?>
+<gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+	<wpt lat="63.3348707176915" lon="12.0369295814399">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Teveltunet Fjellstue</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 0 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 0 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10481"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="63.31915863081037" lon="11.842538779539929">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Stordalshytta</name>
+		<cmt>Privat | Ubetjent | Las: Spesialnøkkel | Senger: 4 | Sesong: Hele året | Annet: </cmt>
+		<desc>Privat | Ubetjent | Las: Spesialnøkkel | Senger: 4 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101178093"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Spesialnøkkel</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Spesialnøkkel</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="63.28572256402544" lon="11.792915702924745">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Gilså</name>
+		<cmt>Statsskog | Ubetjent | Las: Spesialnøkkel | Senger: 12 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Spesialnøkkel | Senger: 12 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101178098"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Spesialnøkkel</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Spesialnøkkel</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="63.27327772744235" lon="11.806197365879115">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Bjørneggen, Biernerånhtjoe</name>
+		<cmt>DNT | Selvbetjent | Las: DNT-Nøkkel | Senger: 38 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Selvbetjent | Las: DNT-Nøkkel | Senger: 38 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/101007690"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="63.241364497041204" lon="11.946647660272951">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Rangeldalen</name>
+		<cmt>Statsskog | Ubetjent | Las: Spesialnøkkel | Senger: 8 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Spesialnøkkel | Senger: 8 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101178086"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Spesialnøkkel</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Spesialnøkkel</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="63.221254743642014" lon="11.727818655057487">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Finnkoisjøen</name>
+		<cmt>Statsskog | Ubetjent | Las: Spesialnøkkel | Senger: 10 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Spesialnøkkel | Senger: 10 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101178097"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Spesialnøkkel</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Spesialnøkkel</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="63.1639078023723" lon="11.7221569785424">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Ramsjøhytta</name>
+		<cmt>DNT | Selvbetjent | Las: DNT-Nøkkel | Senger: 34 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Selvbetjent | Las: DNT-Nøkkel | Senger: 34 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10475"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="63.1116333616318" lon="11.9829976059092">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Storerikvollen</name>
+		<cmt>DNT | Betjent | Las: DNT-Nøkkel | Senger: 65 | Sesong: Hele året, varierer mellom betjent og selvbetjent | Annet: Strøm</cmt>
+		<desc>DNT | Betjent | Las: DNT-Nøkkel | Senger: 65 | Sesong: Hele året, varierer mellom betjent og selvbetjent | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10683"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="63.0699957289028" lon="11.4722501829557">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Græslihytta</name>
+		<cmt>DNT | Selvbetjent | Las: DNT-Nøkkel | Senger: 12 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Selvbetjent | Las: DNT-Nøkkel | Senger: 12 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10469"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="63.0764128" lon="12.147212">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Fiskåhøgda</name>
+		<cmt>DNT | Nødbu | Las: Åpen | Senger: 0 | Sesong: Hele året | Annet: Nødtelefon</cmt>
+		<desc>DNT | Nødbu | Las: Åpen | Senger: 0 | Sesong: Hele året | Annet: Nødtelefon</desc>
+		<link href="https://ut.no/hytte/10474"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Nødbu</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Nødbu</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="62.978695978355205" lon="12.101837821886818">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Nedalshytta</name>
+		<cmt>DNT | Betjent | Las: DNT-Nøkkel | Senger: 60 | Sesong: Hele året, varierer mellom betjent og selvbetjent | Annet: Strøm</cmt>
+		<desc>DNT | Betjent | Las: DNT-Nøkkel | Senger: 60 | Sesong: Hele året, varierer mellom betjent og selvbetjent | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10679"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="62.9072042719101" lon="11.8935227177463">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Væktarstua Hotell</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 50 | Sesong: Hele året | Annet: </cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 50 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10484"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="62.8683382513024" lon="11.6485179534731">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Kjølihytta</name>
+		<cmt>DNT | Selvbetjent | Las: DNT-Nøkkel | Senger: 10 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Selvbetjent | Las: DNT-Nøkkel | Senger: 10 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10467"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>Sylan</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>Sylan</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+</gpx>

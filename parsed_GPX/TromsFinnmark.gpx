@@ -1,0 +1,2403 @@
+<?xml version="1.0" ?>
+<gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
+	<wpt lat="69.271456" lon="21.506039">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Kopmajoki</name>
+		<cmt>Privat | Nødbu | Las: ? | Senger: 0 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Nødbu | Las: ? | Senger: 0 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10661"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Nødbu</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Nødbu</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.23072" lon="21.289245">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Pihtsusjärvi</name>
+		<cmt>Privat | Ubetjent | Las: Åpen | Senger: 10 | Sesong: Hele året | Annet: </cmt>
+		<desc>Privat | Ubetjent | Las: Åpen | Senger: 10 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10523"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.162069" lon="21.342739">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Meekonjärvi</name>
+		<cmt>Privat | Nødbu | Las: ? | Senger: 0 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Nødbu | Las: ? | Senger: 0 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10662"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Nødbu</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Nødbu</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.102205" lon="21.207535">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Kuonjarjoki</name>
+		<cmt>Privat | Ubetjent | Las: Åpen | Senger: 10 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Ubetjent | Las: Åpen | Senger: 10 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10421"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.060833" lon="21.089167">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Saarijärvi</name>
+		<cmt>Privat | Nødbu | Las: Åpen | Senger: 0 | Sesong: Hele året | Annet: </cmt>
+		<desc>Privat | Nødbu | Las: Åpen | Senger: 0 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10663"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Nødbu</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Nødbu</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.01624" lon="20.87056">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Lapland Hotels Kilpis</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 0 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 0 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10170"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.0417196" lon="20.800074">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Kilpisjärven Retkeilykeskus</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 56 | Sesong: ? | Annet: Strøm</cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 56 | Sesong: ? | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/101017"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.06033" lon="20.55707">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Kuohkimajärvi</name>
+		<cmt>Privat | Nødbu | Las: Åpen | Senger: 0 | Sesong: Hele året | Annet: </cmt>
+		<desc>Privat | Nødbu | Las: Åpen | Senger: 0 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10665"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Nødbu</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Nødbu</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.0739146720652" lon="20.5037572632415">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Goldahytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 22 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 22 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101113"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.0531779230749" lon="20.2547350578715">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Gappohytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 24 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 24 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/101114"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.9260495311013" lon="20.185027548688318">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Moskanhytta</name>
+		<cmt>Statsskog | Ubetjent | Las: Åpen | Senger: 3 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Åpen | Senger: 3 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10172361"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.97320062" lon="20.36801726">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Pältsa Fjällstuga</name>
+		<cmt>STF | Ubetjent | Las: ? | Senger: 22 | Sesong: ? | Annet: Nødtelefon</cmt>
+		<desc>STF | Ubetjent | Las: ? | Senger: 22 | Sesong: ? | Annet: Nødtelefon</desc>
+		<link href="https://ut.no/hytte/10278"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>STF</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>STF</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.9397423196064" lon="20.0275608871469">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Rostahytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 33 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 33 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/101061"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.82887915931077" lon="20.28365884909363">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Stor-Rostahytta</name>
+		<cmt>Statsskog | Ubetjent | Las: Åpen | Senger: 4 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Åpen | Senger: 4 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10172360"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.8195842307524" lon="20.1084213251821">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Dærtahytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 23 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 23 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101118"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.6757854674239" lon="19.8210353975179">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Dividalshytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 16 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 16 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10659"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.69348720794181" lon="19.76855272637304">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Ole Nergårdbua</name>
+		<cmt>Statsskog | Ubetjent | Las: Åpen | Senger: 2 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Åpen | Senger: 2 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10172352"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.74689720519815" lon="19.728200324209293">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Fossbua</name>
+		<cmt>Statsskog | Ubetjent | Las: Åpen | Senger: 3 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Åpen | Senger: 3 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10172364"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.76127265965873" lon="19.712782459942456">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Veslnesbua</name>
+		<cmt>Statsskog | Ubetjent | Las: Åpen | Senger: 3 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Åpen | Senger: 3 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10172363"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.6723180738748" lon="19.4871423022427">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Vuomahytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 25 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 25 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10389"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.6587700063786" lon="19.120563942614">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Gaskashytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 18 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 18 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101066"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.69833508016141" lon="18.95916006695086">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Koievassbua</name>
+		<cmt>Statsskog | Ubetjent | Las: Åpen | Senger: 3 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Åpen | Senger: 3 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10172358"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.6633141" lon="18.8907379">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Altevasshytta</name>
+		<cmt>DNT | Ubetjent | Las: Spesialnøkkel | Senger: 17 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: Spesialnøkkel | Senger: 17 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10390"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Spesialnøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Spesialnøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.5137001187305" lon="18.6321687115946">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Lappjordhytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 14 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 14 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10391"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.493056" lon="18.614444">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Pålnostugan</name>
+		<cmt>STF | Ubetjent | Las: Åpen | Senger: 6 | Sesong: Hele året | Annet: Nødtelefon</cmt>
+		<desc>STF | Ubetjent | Las: Åpen | Senger: 6 | Sesong: Hele året | Annet: Nødtelefon</desc>
+		<link href="https://ut.no/hytte/10394"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>STF</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>STF</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.3987094942412" lon="18.4608898330353">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Låktatjåkkastugan</name>
+		<cmt>Privat | Betjent | Las: ? | Senger: 0 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Betjent | Las: ? | Senger: 0 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10951"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.5531376194269" lon="18.1873709288333">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Stordalsstua</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 8 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 8 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10367"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.42748765" lon="18.1226031">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Riksgränsen Vandrarhem</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 0 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 0 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10284"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.4042729450248" lon="17.985578275901">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Vokterboligen</name>
+		<cmt>DNT | Ubetjent | Las: Spesialnøkkel | Senger: 12 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Ubetjent | Las: Spesialnøkkel | Senger: 12 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10216"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Spesialnøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Spesialnøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.3982134776981" lon="17.967231888771096">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Katterat fjellstue</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 30 | Sesong: ? | Annet: Strøm</cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 30 | Sesong: ? | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/101002349"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.3182236662497" lon="17.8992125955687">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Hunddalshytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 14 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 14 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10968"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.2937599901299" lon="17.9976293153263">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Oallavagge</name>
+		<cmt>DNT | Nødbu | Las: Åpen | Senger: 0 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Nødbu | Las: Åpen | Senger: 0 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10956"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Nødbu</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Nødbu</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.20442585" lon="18.18578309">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Unna Allakas Fjällstuga</name>
+		<cmt>STF | Selvbetjent | Las: ? | Senger: 18 | Sesong: ? | Annet: Nødtelefon</cmt>
+		<desc>STF | Selvbetjent | Las: ? | Senger: 18 | Sesong: ? | Annet: Nødtelefon</desc>
+		<link href="https://ut.no/hytte/10287"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>STF</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>STF</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.1976838439518" lon="18.0834991021402">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Cunojávrihytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 9 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 9 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10395"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.1981369989098" lon="17.9633615955955">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Storsteinshytta</name>
+		<cmt>DNT | Ubetjent | Las: Spesialnøkkel | Senger: 4 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: Spesialnøkkel | Senger: 4 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10950"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Spesialnøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Spesialnøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.1901775667763" lon="17.7839084193944">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Lossihytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 10 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 10 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/101112"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.1193931560755" lon="17.9502579170757">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Cáihnavággihytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 9 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 9 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10967"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.0389124946628" lon="17.8374036498428">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Gautelishytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 12 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 12 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10396"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.0593513678422" lon="17.5931074116674">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Skoaddejávre</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 12 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 12 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101388"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.10296" lon="17.2288">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Sitashytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 8 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 8 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10397"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.0507932793794" lon="17.1305351308251">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Baugebua</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 2 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 2 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10266"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="68.04895" lon="17.0317">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Paurohytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 12 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 12 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10399"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.96055" lon="16.83351">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Røysvatn</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 12 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 12 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10400"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.85778476" lon="17.62491353">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Sitasjaure Fjällstuga</name>
+		<cmt>STF | Ubetjent | Las: ? | Senger: 28 | Sesong: ? | Annet: Nødtelefon</cmt>
+		<desc>STF | Ubetjent | Las: ? | Senger: 28 | Sesong: ? | Annet: Nødtelefon</desc>
+		<link href="https://ut.no/hytte/10265"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>STF</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>STF</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.80791495809657" lon="16.620516895135893">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Gamma i Nuortakrågge</name>
+		<cmt>Privat | Nødbu | Las: ? | Senger: 4 | Sesong: Hele året | Annet: Jordgamme</cmt>
+		<desc>Privat | Nødbu | Las: ? | Senger: 4 | Sesong: Hele året | Annet: Jordgamme</desc>
+		<link href="https://ut.no/hytte/101002348"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Nødbu</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Nødbu</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.7218205" lon="17.47304137">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Ritsem Fjällstation</name>
+		<cmt>STF | Selvbetjent | Las: ? | Senger: 80 | Sesong: ? | Annet: Nødtelefon</cmt>
+		<desc>STF | Selvbetjent | Las: ? | Senger: 80 | Sesong: ? | Annet: Nødtelefon</desc>
+		<link href="https://ut.no/hytte/10892"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>STF</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>STF</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.68824146" lon="17.25141728">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Vaisaluokta Fjällstuga</name>
+		<cmt>STF | Ubetjent | Las: ? | Senger: 20 | Sesong: ? | Annet: Nødtelefon</cmt>
+		<desc>STF | Ubetjent | Las: ? | Senger: 20 | Sesong: ? | Annet: Nødtelefon</desc>
+		<link href="https://ut.no/hytte/10401"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>STF</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>STF</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.63511989" lon="17.36165701">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Ahkká-stugorna </name>
+		<cmt>Privat | Ubetjent | Las: ? | Senger: 40 | Sesong: ? | Annet: Nødtelefon</cmt>
+		<desc>Privat | Ubetjent | Las: ? | Senger: 40 | Sesong: ? | Annet: Nødtelefon</desc>
+		<link href="https://ut.no/hytte/10264"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.58644251" lon="17.03489749">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Kutjaure Fjällstuga</name>
+		<cmt>STF | Ubetjent | Las: ? | Senger: 20 | Sesong: ? | Annet: Nødtelefon</cmt>
+		<desc>STF | Ubetjent | Las: ? | Senger: 20 | Sesong: ? | Annet: Nødtelefon</desc>
+		<link href="https://ut.no/hytte/10402"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>STF</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>STF</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.45341289289502" lon="16.986844066473765">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Låddejåhkå/Loddejohka</name>
+		<cmt>Privat | Betjent | Las: ? | Senger: 32 | Sesong: ? | Annet: Nødtelefon</cmt>
+		<desc>Privat | Betjent | Las: ? | Senger: 32 | Sesong: ? | Annet: Nødtelefon</desc>
+		<link href="https://ut.no/hytte/101002347"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.37372" lon="16.80063">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Arasluokta Fjällstuga</name>
+		<cmt>STF | Ubetjent | Las: ? | Senger: 32 | Sesong: ? | Annet: </cmt>
+		<desc>STF | Ubetjent | Las: ? | Senger: 32 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10398"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>STF</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>STF</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.31885" lon="16.696">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Stáloluokta Fjällstuga</name>
+		<cmt>Privat | Selvbetjent | Las: ? | Senger: 42 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Selvbetjent | Las: ? | Senger: 42 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10404"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.24036" lon="16.59171">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Stáddájåhkå Fjällstuga</name>
+		<cmt>Privat | Ubetjent | Las: ? | Senger: 18 | Sesong: Hele året | Annet: </cmt>
+		<desc>Privat | Ubetjent | Las: ? | Senger: 18 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10406"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="67.2325565" lon="16.47744231">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Sårjåsjaure Fjällstuga</name>
+		<cmt>STF | Ubetjent | Las: Åpen | Senger: 8 | Sesong: Hele året | Annet: </cmt>
+		<desc>STF | Ubetjent | Las: Åpen | Senger: 8 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10407"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>STF</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>STF</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="71.0291854623685" lon="25.5875615920911">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Vannfjordhytta</name>
+		<cmt>DNT | Nødbu | Las: Åpen | Senger: 0 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Nødbu | Las: Åpen | Senger: 0 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101355"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Nødbu</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Nødbu</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="70.7694" lon="25.2903">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Várdáncokka</name>
+		<cmt>Privat | Nødbu | Las: ? | Senger: 0 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Nødbu | Las: ? | Senger: 0 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10378"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Nødbu</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Nødbu</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="70.6019" lon="25.0703">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Stohpojohka</name>
+		<cmt>Privat | Ubetjent | Las: ? | Senger: 5 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Ubetjent | Las: ? | Senger: 5 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10655"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="70.4781" lon="25.0653">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Olderfjord hotell</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 0 | Sesong: Sommeråpent | Annet: </cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 0 | Sesong: Sommeråpent | Annet: </desc>
+		<link href="https://ut.no/hytte/101008"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="70.1318946" lon="24.2993542">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Bastingammen</name>
+		<cmt>Privat | Ubetjent | Las: Åpen | Senger: 3 | Sesong: Hele året | Annet: </cmt>
+		<desc>Privat | Ubetjent | Las: Åpen | Senger: 3 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10453"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.865238506108" lon="23.8601302017962">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Reinbukkelvhytta</name>
+		<cmt>DNT | Nødbu | Las: Åpen | Senger: 2 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Nødbu | Las: Åpen | Senger: 2 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101359"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Nødbu</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Nødbu</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.79752002" lon="24.18320969">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Bojobæskihytta</name>
+		<cmt>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 8 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: DNT-Nøkkel | Senger: 8 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10652"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.7544748647842" lon="23.9347161762894">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Joatkajávri fjellstue</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 32 | Sesong: Hele året | Annet: Proviantsalg</cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 32 | Sesong: Hele året | Annet: Proviantsalg</desc>
+		<link href="https://ut.no/hytte/1076"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.5658751322004" lon="24.3901747336386">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Mollesjohka fjellstue/ Mollisjok fjellstue</name>
+		<cmt>Privat | Betjent | Las: ? | Senger: 30 | Sesong: ? | Annet: Strøm</cmt>
+		<desc>Privat | Betjent | Las: ? | Senger: 30 | Sesong: ? | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10589"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.4758" lon="24.1922">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Rágesluobbalat</name>
+		<cmt>Privat | Ubetjent | Las: ? | Senger: 4 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Ubetjent | Las: ? | Senger: 4 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10171"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.42606" lon="23.62095">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Masi Turistsenter</name>
+		<cmt>Privat | Betjent | Las: ? | Senger: 20 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Betjent | Las: ? | Senger: 20 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10594"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.011717" lon="23.03892">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Kautokeino Villmarkssenter</name>
+		<cmt>Privat | Betjent | Las: ? | Senger: 0 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Betjent | Las: ? | Senger: 0 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/101354"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.21337202610668" lon="22.464476228505916">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Reisavannhytta</name>
+		<cmt>Statsskog | Ubetjent | Las: Spesialnøkkel | Senger: 6 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>Statsskog | Ubetjent | Las: Spesialnøkkel | Senger: 6 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/101010205"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Spesialnøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Spesialnøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.28436963271133" lon="22.047420177465057">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Luovdigammen / Arturgammen</name>
+		<cmt>Statsskog | Ubetjent | Las: Åpen | Senger: 2 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Åpen | Senger: 2 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10172354"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.29581797508413" lon="22.009997282460084">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Imogammen</name>
+		<cmt>Statsskog | Ubetjent | Las: Åpen | Senger: 2 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Åpen | Senger: 2 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10172362"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.3205871934293" lon="21.9676291200571">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Nedrefosshytta</name>
+		<cmt>DNT | Ubetjent | Las: Spesialnøkkel | Senger: 16 | Sesong: Hele året | Annet: </cmt>
+		<desc>DNT | Ubetjent | Las: Spesialnøkkel | Senger: 16 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10388"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Spesialnøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Spesialnøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.34728079307888" lon="21.87741070326101">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Vuomatakka</name>
+		<cmt>Statsskog | Ubetjent | Las: Åpen | Senger: 2 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Åpen | Senger: 2 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10172357"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.40305595370498" lon="21.71598230238768">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Sieimahytta</name>
+		<cmt>Statsskog | Ubetjent | Las: Åpen | Senger: 4 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Åpen | Senger: 4 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/10172365"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.4483333333333" lon="21.5427777777778">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Nordkalottstua - Ovi Raishiin</name>
+		<cmt>Privat | Ubetjent | Las: Spesialnøkkel | Senger: 4 | Sesong: Hele året | Annet: </cmt>
+		<desc>Privat | Ubetjent | Las: Spesialnøkkel | Senger: 4 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101151"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Spesialnøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Spesialnøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.48212085746259" lon="21.47382668430485">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Biltohytta</name>
+		<cmt>Statsskog | Ubetjent | Las: Spesialnøkkel | Senger: 10 | Sesong: Hele året | Annet: </cmt>
+		<desc>Statsskog | Ubetjent | Las: Spesialnøkkel | Senger: 10 | Sesong: Hele året | Annet: </desc>
+		<link href="https://ut.no/hytte/101016064"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Statsskog</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>Spesialnøkkel</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Statsskog</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>Spesialnøkkel</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="69.456981577596" lon="21.5331921036907">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Saraelv</name>
+		<cmt>Privat | Ubetjent | Las: ? | Senger: 8 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Ubetjent | Las: ? | Senger: 8 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10572"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Ubetjent</gpxx:Category>
+					<gpxx:Category>?</gpxx:Category>
+					<gpxx:Category>TromsFinnmark</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Ubetjent</wptx1:Category>
+					<wptx1:Category>?</wptx1:Category>
+					<wptx1:Category>TromsFinnmark</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+</gpx>

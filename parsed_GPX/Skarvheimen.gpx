@@ -1,18 +1,50 @@
 <?xml version="1.0" ?>
 <gpx creator="Garmin Desktop App" version="1.1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd http://www.garmin.com/xmlschemas/WaypointExtension/v1 http://www8.garmin.com/xmlschemas/WaypointExtensionv1.xsd http://www.garmin.com/xmlschemas/TrackPointExtension/v1 http://www.garmin.com/xmlschemas/TrackPointExtensionv1.xsd http://www.garmin.com/xmlschemas/GpxExtensions/v3 http://www8.garmin.com/xmlschemas/GpxExtensionsv3.xsd http://www.garmin.com/xmlschemas/ActivityExtension/v1 http://www8.garmin.com/xmlschemas/ActivityExtensionv1.xsd http://www.garmin.com/xmlschemas/AdventuresExtensions/v1 http://www8.garmin.com/xmlschemas/AdventuresExtensionv1.xsd http://www.garmin.com/xmlschemas/PressureExtension/v1 http://www.garmin.com/xmlschemas/PressureExtensionv1.xsd http://www.garmin.com/xmlschemas/TripExtensions/v1 http://www.garmin.com/xmlschemas/TripExtensionsv1.xsd http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1 http://www.garmin.com/xmlschemas/TripMetaDataExtensionsv1.xsd http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1 http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensionsv1.xsd http://www.garmin.com/xmlschemas/CreationTimeExtension/v1 http://www.garmin.com/xmlschemas/CreationTimeExtensionsv1.xsd http://www.garmin.com/xmlschemas/AccelerationExtension/v1 http://www.garmin.com/xmlschemas/AccelerationExtensionv1.xsd http://www.garmin.com/xmlschemas/PowerExtension/v1 http://www.garmin.com/xmlschemas/PowerExtensionv1.xsd http://www.garmin.com/xmlschemas/VideoExtension/v1 http://www.garmin.com/xmlschemas/VideoExtensionv1.xsd" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wptx1="http://www.garmin.com/xmlschemas/WaypointExtension/v1" xmlns:gpxtrx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" xmlns:trp="http://www.garmin.com/xmlschemas/TripExtensions/v1" xmlns:adv="http://www.garmin.com/xmlschemas/AdventuresExtensions/v1" xmlns:prs="http://www.garmin.com/xmlschemas/PressureExtension/v1" xmlns:tmd="http://www.garmin.com/xmlschemas/TripMetaDataExtensions/v1" xmlns:vptm="http://www.garmin.com/xmlschemas/ViaPointTransportationModeExtensions/v1" xmlns:ctx="http://www.garmin.com/xmlschemas/CreationTimeExtension/v1" xmlns:gpxacc="http://www.garmin.com/xmlschemas/AccelerationExtension/v1" xmlns:gpxpx="http://www.garmin.com/xmlschemas/PowerExtension/v1" xmlns:vidx1="http://www.garmin.com/xmlschemas/VideoExtension/v1">
-	<wpt lat="61.026579844202" lon="8.31687081395578">
-		<time>2023-04-26T09:59:02Z</time>
-		<name>Kljåen</name>
-		<cmt>Senger: 8 | Sesong: Stengt mid okt til slutt feb | Annet: </cmt>
-		<desc>Senger: 8 | Sesong: Stengt mid okt til slutt feb | Annet: </desc>
-		<link href="https://ut.no/hytte/10928"/>
+	<wpt lat="61.253372670918196" lon="8.203133947965739">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Tyinstølen Turisthytte</name>
+		<cmt>Privat | Betjent | Las: Åpen | Senger: 20 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>Privat | Betjent | Las: Åpen | Senger: 20 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/101089"/>
 		<sym>Lodge</sym>
 		<type>user</type>
 		<extensions>
 			<gpxx:WaypointExtension>
 				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
 				<gpxx:Categories>
-					<gpxx:Category>DNT</gpxx:Category>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Åpen</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Åpen</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="61.2458522935697" lon="8.12967586555553">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Slettningsbu</name>
+		<cmt>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 14 | Sesong: Vinterstengt | Annet: </cmt>
+		<desc>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 14 | Sesong: Vinterstengt | Annet: </desc>
+		<link href="https://ut.no/hytte/10680"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT Oslo</gpxx:Category>
 					<gpxx:Category>Selvbetjent</gpxx:Category>
 					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
 					<gpxx:Category>Skarvheimen</gpxx:Category>
@@ -21,14 +53,398 @@
 			<wptx1:WaypointExtension>
 				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
 				<wptx1:Categories>
-					<wptx1:Category>DNT</wptx1:Category>
+					<wptx1:Category>DNT Oslo</wptx1:Category>
 					<wptx1:Category>Selvbetjent</wptx1:Category>
 					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
 					<wptx1:Category>Skarvheimen</wptx1:Category>
 				</wptx1:Categories>
 			</wptx1:WaypointExtension>
 			<ctx:CreationTimeExtension>
-				<ctx:CreationTime>2023-04-26T09:59:02Z</ctx:CreationTime>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="61.1959" lon="8.23616">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Filefjellstuene</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 96 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 96 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10728"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="61.1403497728013" lon="8.17534579530292">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Sulebu</name>
+		<cmt>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 22 | Sesong: Vinterstengt | Annet: Strøm</cmt>
+		<desc>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 22 | Sesong: Vinterstengt | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10686"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT Oslo</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT Oslo</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="61.0230279548829" lon="8.03668358159352">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Breistølen Fjellstue</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 20 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 20 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/101115"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="61.02224" lon="8.04158">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Skarvheim</name>
+		<cmt>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 9 | Sesong: Vinterstengt | Annet: Strøm</cmt>
+		<desc>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 9 | Sesong: Vinterstengt | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/101265"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT Oslo</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT Oslo</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="61.026579844202" lon="8.31687081395578">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Kljåen</name>
+		<cmt>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 8 | Sesong: Vinterstengt | Annet: Strøm</cmt>
+		<desc>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 8 | Sesong: Vinterstengt | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10928"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT Oslo</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT Oslo</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="60.9338616354354" lon="8.19357342666484">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Bjøberg Høgfjellsgard</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 20 | Sesong: Hele året | Annet: Strøm</cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 20 | Sesong: Hele året | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10727"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="60.9271109249744" lon="7.99777273522981">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Bjordalsbu</name>
+		<cmt>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 24 | Sesong: Vinterstengt | Annet: Strøm</cmt>
+		<desc>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 24 | Sesong: Vinterstengt | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10812"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT Oslo</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT Oslo</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="60.828485415650874" lon="8.392707076984351">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Flævasshytta</name>
+		<cmt>Privat | Serveringssted | Las: Betjent | Senger: 0 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Serveringssted | Las: Betjent | Senger: 0 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10357895"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Serveringssted</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Serveringssted</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="60.8102338315488" lon="7.93362093583997">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Iungsdalshytta</name>
+		<cmt>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 52 | Sesong: Betjent fra 23. juni 2023 | Annet: Strøm</cmt>
+		<desc>DNT Oslo | Selvbetjent | Las: DNT-Nøkkel | Senger: 52 | Sesong: Betjent fra 23. juni 2023 | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10973"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>DNT Oslo</gpxx:Category>
+					<gpxx:Category>Selvbetjent</gpxx:Category>
+					<gpxx:Category>DNT-Nøkkel</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>DNT Oslo</wptx1:Category>
+					<wptx1:Category>Selvbetjent</wptx1:Category>
+					<wptx1:Category>DNT-Nøkkel</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="60.7150822477341" lon="8.29170502859598">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Bergsjøstølen Høyfjellshytte</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 90 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 90 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/10816"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="60.7102294288407" lon="8.25388563096589">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Rødungstøl Høyfjellshotell</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 80 | Sesong: ? | Annet: Strøm</cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 80 | Sesong: ? | Annet: Strøm</desc>
+		<link href="https://ut.no/hytte/10814"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
+			</ctx:CreationTimeExtension>
+		</extensions>
+	</wpt>
+	<wpt lat="60.6695582632546" lon="8.62213360889641">
+		<time>2023-05-18T09:53:09Z</time>
+		<name>Liatoppen Fjellstove</name>
+		<cmt>Privat | Betjent | Las: Betjent | Senger: 60 | Sesong: ? | Annet: </cmt>
+		<desc>Privat | Betjent | Las: Betjent | Senger: 60 | Sesong: ? | Annet: </desc>
+		<link href="https://ut.no/hytte/1091"/>
+		<sym>Lodge</sym>
+		<type>user</type>
+		<extensions>
+			<gpxx:WaypointExtension>
+				<gpxx:DisplayMode>SymbolAndName</gpxx:DisplayMode>
+				<gpxx:Categories>
+					<gpxx:Category>Privat</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Betjent</gpxx:Category>
+					<gpxx:Category>Skarvheimen</gpxx:Category>
+				</gpxx:Categories>
+			</gpxx:WaypointExtension>
+			<wptx1:WaypointExtension>
+				<wptx1:DisplayMode>SymbolAndName</wptx1:DisplayMode>
+				<wptx1:Categories>
+					<wptx1:Category>Privat</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Betjent</wptx1:Category>
+					<wptx1:Category>Skarvheimen</wptx1:Category>
+				</wptx1:Categories>
+			</wptx1:WaypointExtension>
+			<ctx:CreationTimeExtension>
+				<ctx:CreationTime>2023-05-18T09:53:09Z</ctx:CreationTime>
 			</ctx:CreationTimeExtension>
 		</extensions>
 	</wpt>

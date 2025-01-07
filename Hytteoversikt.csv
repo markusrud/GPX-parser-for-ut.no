@@ -1,0 +1,314 @@
+Name,GPX_file,Type,Stafftype,Beds,Area,Lock,Season,Other
+Tjortedal,ut-no_tjortedal,DNT,Ubetjent,5,Sørlandskysten,DNT-Nøkkel,Hele året,Strøm
+Ljosland Fjellstove,ut-no_ljosland-fjellstove,Privat,Betjent,48,Setesdalsheiene,Betjent,Hele året,Strøm
+Lakkenstova,ut-no_lakkenstova,DNT,Selvbetjent,36,Setesdalsheiene,Åpen,Stengt slutt august,Strøm
+Kvinen,ut-no_kvinen,DNT,Selvbetjent,40,Sirdal,DNT-Nøkkel,Hele året,Strøm
+Josephsbu,ut-no_josephsbu,DNT,Selvbetjent,20,Setesdalsheiene,Åpen,Stengt slutt august,Strøm
+Gaukhei,ut-no_gaukhei,DNT,Selvbetjent,46,Setesdalsheiene,Åpen,Hele året,Strøm
+Tjønndalen,ut-no_tjnndalen,DNT,Ubetjent,6,Setesdalsheiene,Åpen,Hele året,
+Håheller,ut-no_hheller,DNT,Ubetjent,8,Setesdalsheiene,Åpen,Stengt i perioden 31. okt. - 20. mai,
+Øyuvsbu,ut-no_yuvsbu,DNT,Selvbetjent,34,Setesdalsheiene,Åpen,Stengt i perioden 22. des. - 20. mai,Strøm
+Stavskar,ut-no_stavskar,DNT,Ubetjent,8,Setesdalsheiene,DNT-Nøkkel,Stengt i perioden 3. nov. - 16. mai,
+Bossbu,ut-no_bossbu,DNT,Selvbetjent,27,Setesdalsheiene,Åpen,Stengt i perioden 25. april - 31. mai,Strøm
+Bjørnevasshytta,ut-no_bjrnevasshytta,DNT,Ubetjent,8,Austheiene,DNT-Nøkkel,Hele året,Strøm
+Rjukan Fjellstue as,ut-no_rjukan-fjellstue-as,Privat,Betjent,?,Hardangervidda,Betjent,Stengt i perioden 1. jan. - 30. juni,Strøm
+Krokan Turisthytte,ut-no_krokan-turisthytte,DNT,Ubetjent,8,Telemark,Spesialnøkkel,Stengt 1. okt - 30. apr.,Strøm
+Rjukan Admini Hotell,ut-no_rjukan-admini-hotell,Privat,Betjent,?,Hardangervidda,Betjent,?,
+Gaustatoppen Turisthytte,ut-no_gaustatoppen-turisthytte,DNT,Betjent,11,Telemark,Betjent,Vinterstengt,Strøm
+Olandsbu,ut-no_olandsbu,DNT,Ubetjent,4,Sørlandskysten,DNT-Nøkkel,Hele året,
+Skarsvassbu,ut-no_skarsvassbu,DNT,Selvbetjent,12,Austheiene,Åpen,Hele året,
+Grunnetjørnsbu,ut-no_grunnetjrnsbu,DNT,Selvbetjent,18,Austheiene,Åpen,Hele året,
+Vindilhytta,ut-no_vindilhytta,Privat,Betjent,20,Austheiene,Betjent,Hele året,
+Mjåvasshytta,ut-no_mjvasshytta,DNT,Selvbetjent,18,Austheiene,Åpen,Hele året,
+Granbustøyl,ut-no_granbustyl,DNT,Selvbetjent,13,Austheiene,Åpen,Hele året,
+Hengeltjørnhytta,ut-no_hengeltjrnhytta,DNT,Selvbetjent,13,Austheiene,Åpen,Hele året,
+Kvipt Gjestegard,ut-no_kvipt-gjestegard,Privat,Betjent,23,Austheiene,Spesialnøkkel,Hele året,
+Nutevasshytta,ut-no_nutevasshytta,DNT,Selvbetjent,20,Austheiene,Åpen,Hele året,
+Nystøyl,ut-no_nystyl,DNT,Selvbetjent,20,Austheiene,Åpen,Hele året,
+Torsdalsbu,ut-no_torsdalsbu,DNT,Ubetjent,9,Austheiene,DNT-Nøkkel,Hele året,
+Hovstøyl,ut-no_hovstyl,DNT,Selvbetjent,20,Austheiene,Åpen,Hele året,
+Trongebu,ut-no_trongebu,DNT,Nødbu,0,Telemark,Åpen,Hele året,
+Sandtjennhytta,ut-no_sandtjennhytta,Statsskog,Ubetjent,10,Telemark,Spesialnøkkel,Hele året,
+Venelibu,ut-no_venelibu,DNT,Nødbu,0,Telemark,Åpen,Hele året,
+Helberghytta,ut-no_helberghytta,DNT Oslo,Selvbetjent,14,Hardangervidda,DNT-Nøkkel,Åpner 11. juni 2023,
+Kalhovd Turisthytte,ut-no_kalhovd-turisthytte,DNT,Ubetjent,75,Hardangervidda,DNT-Nøkkel,Åpner 11. juni 2023 som ubetjent,Strøm. Betjeningsgrad varierer med sesong
+Stordalsbu,ut-no_stordalsbu,DNT Oslo,Selvbetjent,12,Hardangervidda,DNT-Nøkkel,Åpner 11. juni 2023,
+Lågaros,ut-no_lgaros,DNT Oslo,Selvbetjent,38,Hardangervidda,DNT-Nøkkel,Åpner 11. juni 2023,
+Mårbu,ut-no_mrbu,DNT,Betjent,38,Hardangervidda,Betjent,Åpner 23. juni 2023,Strøm
+Mårbu selvbetjent,ut-no_mrbu-selvbetjent,DNT,Selvbetjent,29,Hardangervidda,DNT-Nøkkel,Åpner 11. juni 2023,Strøm
+Mårbu Seter og Fjellstue,ut-no_mrbu-seter-og-fjellstue,Privat,Betjent,20,Hardangervidda,Betjent,?,Strøm
+Imingfjell Turistheim,ut-no_imingfjell-turistheim,Privat,Betjent,55,Hardangervidda,Betjent,?,Strøm
+Solheimstulen,ut-no_solheimstulen,DNT,Betjent,60,Hardangervidda,Betjent,Åpner kanskje 22. juni,Strøm
+Ulvelilægeret,ut-no_ulvelilgeret,DNT,Nødbu,8,Hardangervidda,DNT-Nøkkel,Åpner 1. juli 2023,
+Rauhelleren selvbetjent,ut-no_rauhelleren-selvbetjent,DNT,Selvbetjent,30,Hardangervidda,DNT-Nøkkel,Åpner 11. juni 2023,Strøm
+Rauhelleren,ut-no_rauhelleren,DNT,Betjent,54,Hardangervidda,Betjent,Åpner 23. juni 2023,
+Vasstulan,ut-no_vasstulan,Privat,Serveringssted,0,Hardangervidda,Åpen,?,
+Torsetlia Fjellstue,ut-no_torsetlia-fjellstue,Privat,Betjent,70,Hardangervidda,Åpen,?,
+Dagali Fjellpark,ut-no_dagali-fjellpark-leiehytte,Privat,Betjent,29,Hardangervidda,Spesialnøkkel,Hele året,Strøm
+Ossjøen Sæterstue,ut-no_ossjen-sterstue,Privat,Ubetjent,30,Hardangervidda,,,Mye usikkerhet om tilgjengelighet
+Åan Turisthytte,ut-no_an-turisthytte,Privat,Betjent,20,Hardangervidda,Betjent,?,Strøm
+Heinseter,ut-no_heinseter,Privat,Betjent,55,Hardangervidda,Betjent,?,
+Tuva Turisthytte,ut-no_tuva-turisthytte,Privat,Betjent,20,Hardangervidda,Betjent,?,
+Grønebakken,ut-no_grnebakken,Privat,Serveringssted,0,Hardangervidda,Åpen,?,
+Hakkesetstølen Fjellstugu og Hytter,ut-no_hakkesetstlen-fjellstugu-og-hytter,Privat,Betjent,33,Hardangervidda,Betjent,?,Strøm
+Lufsjå,ut-no_lufsj,DNT Oslo,Selvbetjent,16,Blefjell,DNT-Nøkkel,Åpner 11. juni 2023,
+Eidsbugarden Hotell,ut-no_eidsbugarden-hotell,Privat,Betjent,55,Jotunheimen,Betjent,?,Strøm
+Fondsbu,ut-no_fondsbu,DNT Oslo,Betjent,100,Jotunheimen,Betjent,Stengt til 29. juni 2023,Strøm + depo
+Tyinholmen Høyfjellsstuer,ut-no_tyinholmen-hyfjellsstuer,Privat,Betjent,80,Jotunheimen,Spesialnøkkel,Hele året,Strøm
+Tyinstølen Turisthytte,ut-no_tyinstlen-turisthytte,Privat,Betjent,20,Skarvheimen,Åpen,Hele året,Strøm
+Slettningsbu,ut-no_slettningsbu,DNT Oslo,Selvbetjent,14,Skarvheimen,DNT-Nøkkel,Vinterstengt,
+Filefjellstuene,ut-no_filefjellstuene,Privat,Betjent,96,Skarvheimen,Betjent,Hele året,Strøm
+Tyinkrysset fjellstue,ut-no_tyinkrysset-fjellstue,Privat,Betjent,0,Jotunheimen,Betjent,Hele året,
+Sulebu,ut-no_sulebu,DNT Oslo,Selvbetjent,22,Skarvheimen,DNT-Nøkkel,Vinterstengt,Strøm
+Breistølen Fjellstue,ut-no_breistlen-fjellstue,Privat,Betjent,20,Skarvheimen,Betjent,?,
+Skarvheim,ut-no_skarvheim,DNT Oslo,Selvbetjent,9,Skarvheimen,DNT-Nøkkel,Vinterstengt,Strøm
+Kljåen,ut-no_kljen,DNT Oslo,Selvbetjent,8,Skarvheimen,DNT-Nøkkel,Vinterstengt,Strøm
+Stabburet,ut-no_stabburet,Privat,Selvbetjent,4,Hallingdal,Åpen,Hele året,
+Bjøberg Høgfjellsgard,ut-no_bjberg-hgfjellsgard,Privat,Betjent,20,Skarvheimen,Betjent,Hele året,Strøm
+Bjordalsbu,ut-no_bjordalsbu,DNT Oslo,Selvbetjent,24,Skarvheimen,DNT-Nøkkel,Vinterstengt,Strøm
+Flævasshytta,ut-no_flvasshytta,Privat,Serveringssted,0,Skarvheimen,Betjent,?,
+Iungsdalshytta,ut-no_iungsdalshytta,DNT Oslo,Selvbetjent,52,Skarvheimen,DNT-Nøkkel,Betjent fra 23. juni 2023,Strøm
+Bergsjøstølen Høyfjellshytte,ut-no_bergsjstlen-hyfjellshytte,Privat,Betjent,90,Skarvheimen,Betjent,?,
+Rødungstøl Høyfjellshotell,ut-no_rdungstl-hyfjellshotell,Privat,Betjent,80,Skarvheimen,Betjent,?,Strøm
+Liatoppen Fjellstove,ut-no_liatoppen-fjellstove,Privat,Betjent,60,Skarvheimen,Betjent,?,
+Bessheim Fjellstue og Hytter,ut-no_bessheim-fjellstue-og-hytter,Privat,Betjent,180,Jotunheimen,Betjent,?,Strøm
+Bessegen Fjellpark: Maurvangen ,ut-no_bessegen-fjellpark_-maurvangen-,Privat,Betjent,0,Langsua,Betjent,Hele året,Strøm
+Gjendesheim,ut-no_gjendesheim,DNT Oslo,Betjent,185,Jotunheimen,Betjent,Åpner 9. juni,Strøm
+Memurubu Turisthytte,ut-no_memurubu-turisthytte,Privat,Betjent,150,Jotunheimen,Betjent,Åpner 16. juni,Strøm
+Gjendebu,ut-no_gjendebu,DNT Oslo,Betjent,119,Jotunheimen,Betjent,Selvbetjent frem til 17. juni,Strøm
+Bygdin Høifieldshotel,ut-no_bygdin-hifieldshotel,Privat,Betjent,96,Jotunheimen,Betjent,?,Strøm
+Torfinnsbu,ut-no_torfinnsbu,DNT Oslo,Selvbetjent,31,Jotunheimen,DNT-Nøkkel,Vinterstengt,Strøm
+Yksendalsbu,ut-no_yksendalsbu,DNT Oslo,Selvbetjent,18,Jotunheimen,DNT-Nøkkel,Vinterstengt,Strøm
+Tomashelleren,ut-no_tomashelleren,DNT Oslo,Selvbetjent,14,Jotunheimen,DNT-Nøkkel,Vinterstengt,Strøm
+Hugasyn hyttegrend,ut-no_hugasyn-hyttegrend,Privat,Ubetjent,60,Jotunheimen,Spesialnøkkel,Hele året,Strøm
+Syndinstøga,ut-no_syndinstga,Privat,Betjent,22,Hallingdal,Betjent,?,
+Ellingbø Gard - Olavstøga,ut-no_ellingb-gard---olavstga,Privat,Ubetjent,5,Hallingdal,Åpen,Hele året,
+Flikja - Huken,ut-no_flikja---huken,DNT,Ubetjent,6,Hallingdal,Åpen,Hele året,
+Valdres Fjellhotell Hovda,ut-no_valdres-fjellhotell-hovda,Privat,Betjent,63,Hallingdal,Åpen,Hele året,Strøm
+Merket,ut-no_merket,Privat,Betjent,160,Hallingdal,Betjent,Hele året,Strøm
+Nøsen Fjellhotell,ut-no_nsen-fjellhotell,Privat,Betjent,70,Hallingdal,Betjent,Hele året,
+Tyrishølt,ut-no_tyrishlt,DNT,Ubetjent,10,Hallingdal,DNT-Nøkkel,?,Strøm
+Kamben Høyfjellshotell,ut-no_kamben-hyfjellshotell,Privat,Betjent,70,Hallingdal,Betjent,?,
+Oset Høyfjellshotell,ut-no_oset-hyfjellshotell,Privat,Betjent,200,Hallingdal,Betjent,?,
+Golsfjellet Fjellstue,ut-no_golsfjellet-fjellstue,Privat,Betjent,0,Hallingdal,Betjent,Hele året,
+Ulsåkstølen,ut-no_ulskstlen,Privat,Betjent,8,Hallingdal,Betjent,?,
+Gravsetstugu,ut-no_gravsetstugu,Privat,Serveringssted,0,Hallingdal,Betjent,?,
+Røggjen,ut-no_rggjen,DNT,Ubetjent,6,Hallingdal,DNT-Nøkkel,Hele året,Strøm
+Korsberghytta,ut-no_korsberghytta,DNT Oslo,Selvbetjent,14,Rondane,DNT-Nøkkel,Vinterstengt,Strøm
+Storgrytdalseter,ut-no_storgrytdalseter,DNT Oslo,Selvbetjent,14,Rondane,DNT-Nøkkel,Vinterstengt,Strøm
+Breisjøseter Turisthytte,ut-no_breisjseter-turisthytte,Privat,Betjent,48,Rondane,Betjent,Hele året,Strøm
+Rondane Friluftssenter Rondetunet,ut-no_rondane-friluftssenter-rondetunet,Privat,Betjent,90,Rondane,Betjent,Hele året,
+Eldåbu,ut-no_eldbu,DNT Oslo,Selvbetjent,20,Rondane,DNT-Nøkkel,Åpner 11. juni 2023,Strøm
+Bjørnhollia,ut-no_bjrnhollia,DNT Oslo,Betjent,90,Rondane,Betjent,Åpner 23. juni,Strøm
+Rondvassbu,ut-no_rondvassbu,DNT Oslo,Betjent,128,Rondane,Betjent,Åpner 10. juni som selvbetjent. Betjent fra 23. juni,Strøm
+Mysuseter Fjellosji,ut-no_mysuseter-fjellosji,Privat,Ubetjent,23,Rondane,Betjent,?,
+Rondane Høyfjellshotell,ut-no_rondane-hyfjellshotell,Privat,Betjent,220,Rondane,Betjent,Hele året,Strøm
+Rondeslottet,ut-no_rondeslottet,Privat,Betjent,0,Rondane,Betjent,?,Strøm
+Hotel Rondablikk,ut-no_hotel-rondablikk,Privat,Betjent,182,Rondane,Betjent,?,Strøm
+Sulseter Fjellstugu,ut-no_sulseter-fjellstugu,Privat,Betjent,21,Rondane,Betjent,Hele året,Strøm
+Gålå Høgfjellshotell,ut-no_gl-hgfjellshotell,Privat,Betjent,0,Langsua,Betjent,Hele året,
+Fefor Høifjellshotell og Hytter,ut-no_fefor-hifjellshotell-og-hytter,Privat,Betjent,250,Langsua,Betjent,Hele året,
+Hulderbu,ut-no_hulderbu,Privat,Daghytte,0,Langsua,?,Hele året,
+Ruten Fjellstue,ut-no_ruten-fjellstue,Privat,Betjent,65,Langsua,Betjent,?,
+Dalseter Høyfjellshotell,ut-no_dalseter-hyfjellshotell,Privat,Betjent,150,Langsua,Betjent,?,Strøm
+Bingsbua,ut-no_bingsbua,Privat,Daghytte,0,Langsua,?,Hele året,
+Strand Fjellstue,ut-no_strand-fjellstue,Privat,Betjent,45,Langsua,?,Hele året,
+Tonebu,ut-no_tonebu,Privat,Daghytte,0,Langsua,?,Hele året,
+Nordbua,ut-no_nordbua,Privat,Ubetjent,4,Langsua,Åpen,Hele året,
+Revsjøhytta,ut-no_revsjhytta,Privat,Ubetjent,6,Langsua,Spesialnøkkel,Hele året,Strøm
+Storkvolvbua,ut-no_storkvolvbua,DNT Oslo,Selvbetjent,27,Langsua,DNT-Nøkkel,Hele året,Strøm
+Skriurusten,ut-no_skriurusten,DNT Oslo,Selvbetjent,16,Langsua,DNT-Nøkkel,Hele året,
+Haldorbu,ut-no_haldorbu,DNT Oslo,Selvbetjent,15,Langsua,DNT-Nøkkel,Hele året,Strøm
+Storeskag,ut-no_storeskag,DNT Oslo,Selvbetjent,20,Langsua,DNT-Nøkkel,Hele året,Strøm
+Fehytta,ut-no_fehytta,DNT Oslo,Selvbetjent,10,Langsua,DNT-Nøkkel,Sommerstengt,
+Liomseter,ut-no_liomseter,DNT Oslo,Betjent,49,Langsua,Betjent,Åpner 23. juni,Strøm
+Liumseterhytta,ut-no_liumseterhytta,Privat,Ubetjent,4,Langsua,Spesialnøkkel,Hele året,
+Reinsjøbua,ut-no_reinsjbua,Privat,Ubetjent,4,Langsua,Åpen,Hele året,
+Lenningen Fjellstue,ut-no_lenningen-fjellstue,Privat,Betjent,40,Langsua,Betjent,Hele året,
+Skjelbreibua,ut-no_skjelbreibua,Privat,Ubetjent,6,Langsua,Åpen,Hele året,
+Storhøliseter,ut-no_storhliseter,DNT Oslo,Selvbetjent,18,Langsua,DNT-Nøkkel,Hele året,Strøm
+Oskampen,ut-no_oskampen,DNT Oslo,Selvbetjent,12,Langsua,DNT-Nøkkel,Åpner 1. april,Strøm
+Haugseter fjellstue,ut-no_haugseter-fjellstue,Privat,Betjent,60,Langsua,Betjent,?,Strøm
+Sikkilsdalsseter,ut-no_sikkilsdalsseter,Privat,Betjent,78,Langsua,Betjent,Hele året,Strøm
+Svarthamar,ut-no_svarthamar,DNT Oslo,Selvbetjent,9,Langsua,DNT-Nøkkel,Hele året,
+Nythun,ut-no_nythun,Privat,Betjent,60,Hallingdal,Betjent,?,
+Vertshuset Røros,ut-no_vertshuset-rros,Privat,Betjent,65,Femundsmarka,Betjent,Hele året,
+Bredalslibua,ut-no_bredalslibua,Privat,Daghytte,0,Femundsmarka,?,Hele året,
+Narjordet,ut-no_narjordet,DNT Oslo,Selvbetjent,6,Femundsmarka,DNT-Nøkkel,Vinterstengt,
+Hodalen fjellstue,ut-no_hodalen-fjellstue,Privat,Ubetjent,4,Femundsmarka,DNT-Nøkkel,Hele året,
+Raudsjødalen,ut-no_raudsjdalen,DNT Oslo,Selvbetjent,15,Femundsmarka,DNT-Nøkkel,Vinterstengt,
+Knausen,ut-no_knausen,DNT Oslo,Selvbetjent,7,Femundsmarka,?,Vinterstengt,
+Tuftehaugen Skihytte,ut-no_tuftehaugen-skihytte,Privat,Serveringssted,0,Femundsmarka,Spesialnøkkel,Sommerstengt,
+Allmannstua,ut-no_allmannstua,Privat,Serveringssted,0,Femundsmarka,Spesialnøkkel,Sommerstengt,
+Kviltjønnhytta,ut-no_kviltjnnhytta,Privat,Ubetjent,5,SkjækerBlåFjella,Spesialnøkkel,,
+Skjelbredtunet,ut-no_skjelbredtunet,Privat,Ubetjent,0,SkjækerBlåFjella,Betjent,,
+Almdalshytta,ut-no_almdalshytta,Privat,Ubetjent,4,SkjækerBlåFjella,Spesialnøkkel,,
+Kleivstua,ut-no_kleivstua,Statsskog,Ubetjent,9,SkjækerBlåFjella,Spesialnøkkel,Hele året,
+Dalvasshytta,ut-no_dalvasshytta,Privat,Ubetjent,6,SkjækerBlåFjella,Spesialnøkkel,Hele året,
+Grisbakkhytta,ut-no_grisbakkhytta,Privat,Ubetjent,5,SkjækerBlåFjella,Spesialnøkkel,Hele året,Strøm
+Gressåmoen,ut-no_gressmoen,Privat,Ubetjent,0,SkjækerBlåFjella,Betjent,,Overnatting på bestilling
+Andorsjøhytta,ut-no_andorsjhytta,Privat,Ubetjent,10,SkjækerBlåFjella,Spesialnøkkel,Hele året,Strøm
+Seisjøen jaktstue,ut-no_seisjen-jaktstue,Statsskog,Ubetjent,6,SkjækerBlåFjella,Spesialnøkkel,Hele året,
+Seisjøen skogstue,ut-no_seisjen-skogstue,Statsskog,Ubetjent,6,SkjækerBlåFjella,Spesialnøkkel,,
+Øydingshytta,ut-no_ydingshytta,Privat,Ubetjent,7,SkjækerBlåFjella,Spesialnøkkel,Hele året,Strøm
+Langvasshytta,ut-no_langvasshytta,Privat,Ubetjent,6,SkjækerBlåFjella,Spesialnøkkel,,
+Kasttjønnhytta,ut-no_kasttjnnhytta,Privat,Ubetjent,4,SkjækerBlåFjella,Spesialnøkkel,Hele året,Strøm
+Gjefsjøen Fjellgård,ut-no_gjefsjen-fjellgrd,Privat,Betjent,21,SkjækerBlåFjella,Spesialnøkkel,Hele året,Strøm
+Raudtjønnstua,ut-no_raudtjnnstua,Privat,Ubetjent,3,SkjækerBlåFjella,Spesialnøkkel,Hele året,
+"Holden fjellgård, Bekkstuggu","ut-no_holden-fjellgrd,-bekkstuggu",DNT,Selvbetjent,11,SkjækerBlåFjella,DNT-Nøkkel,Hele året,Strøm
+Gaundalen Fjellgård,ut-no_gaundalen-fjellgrd,Privat,Betjent,20,SkjækerBlåFjella,Spesialnøkkel,Hele året,Strøm
+Ryplihytta,ut-no_ryplihytta,Privat,Ubetjent,8,SkjækerBlåFjella,Spesialnøkkel,Hele året,Strøm
+Nåvasshytta,ut-no_nvasshytta,Privat,Ubetjent,6,SkjækerBlåFjella,Spesialnøkkel,Hele året,Strøm
+Skjækerhytta,ut-no_skjkerhytta,Privat,Ubetjent,6,SkjækerBlåFjella,Spesialnøkkel,Hele året,Strøm
+Setertjønnhytta,ut-no_setertjnnhytta,DNT,Selvbetjent,12,SkjækerBlåFjella,DNT-Nøkkel,Hele året,Strøm
+Lågvassbua,ut-no_lgvassbua,Privat,Ubetjent,0,SkjækerBlåFjella,Åpen,Hele året,
+Skjækerdalshytta,ut-no_skjkerdalshytta,DNT,Selvbetjent,12,SkjækerBlåFjella,DNT-Nøkkel,Hele året,Strøm
+Veresstua,ut-no_veresstua,DNT,Selvbetjent,10,SkjækerBlåFjella,DNT-Nøkkel,Hele året,Strøm
+Bellingstua,ut-no_bellingstua,DNT,Selvbetjent,10,SkjækerBlåFjella,DNT-Nøkkel,Hele året,Strøm
+Torpberget,ut-no_torpberget,Privat,Ubetjent,16,SkjækerBlåFjella,Spesialnøkkel,Hele året,
+Sulsjøhytta,ut-no_sulsjhytta,Privat,Ubetjent,6,SkjækerBlåFjella,Spesialnøkkel,Hele året,
+Ferslia,ut-no_ferslia,DNT,Selvbetjent,14,SkjækerBlåFjella,DNT-Nøkkel,Hele året,Strøm
+Angeltjønnhytta,ut-no_angeltjnnhytta,DNT,Selvbetjent,8,SkjækerBlåFjella,DNT-Nøkkel,Hele året,Strøm
+Teveldalshytta,ut-no_teveldalshytta,Statsskog,Ubetjent,7,SkjækerBlåFjella,Spesialnøkkel,Hele året,
+Teveltunet Fjellstue,ut-no_teveltunet-fjellstue,Privat,Betjent,0,Sylan,Betjent,Hele året,Strøm
+Stordalshytta,ut-no_stordalshytta,Privat,Ubetjent,4,Sylan,Spesialnøkkel,Hele året,
+Gilså,ut-no_gils,Statsskog,Ubetjent,12,Sylan,Spesialnøkkel,Hele året,
+"Bjørneggen, Biernerånhtjoe","ut-no_bjrneggen,-biernernhtjoe",DNT,Selvbetjent,38,Sylan,DNT-Nøkkel,Hele året,Strøm
+Rangeldalen,ut-no_rangeldalen,Statsskog,Ubetjent,8,Sylan,Spesialnøkkel,Hele året,
+Finnkoisjøen,ut-no_finnkoisjen,Statsskog,Ubetjent,10,Sylan,Spesialnøkkel,Hele året,
+Ramsjøhytta,ut-no_ramsjhytta,DNT,Selvbetjent,34,Sylan,DNT-Nøkkel,Hele året,Strøm
+Storerikvollen,ut-no_storerikvollen,DNT,Betjent,65,Sylan,DNT-Nøkkel,"Hele året, varierer mellom betjent og selvbetjent",Strøm
+Græslihytta,ut-no_grslihytta,DNT,Selvbetjent,12,Sylan,DNT-Nøkkel,Hele året,Strøm
+Fiskåhøgda,ut-no_fiskhgda,DNT,Nødbu,0,Sylan,Åpen,Hele året,Nødtelefon
+Nedalshytta,ut-no_nedalshytta,DNT,Betjent,60,Sylan,DNT-Nøkkel,"Hele året, varierer mellom betjent og selvbetjent",Strøm
+Væktarstua Hotell,ut-no_vktarstua-hotell,Privat,Betjent,50,Sylan,Betjent,Hele året,
+Kjølihytta,ut-no_kjlihytta,DNT,Selvbetjent,10,Sylan,DNT-Nøkkel,Hele året,
+Ny-Sulitjelma fjellstue,ut-no_ny-sulitjelma-fjellstue,DNT,Ubetjent,29,Sulitjelmafjellan,DNT-Nøkkel,Hele året,Strøm
+Lomihytta,ut-no_lomihytta,DNT,Ubetjent,4,Sulitjelmafjellan,DNT-Nøkkel,Hele året,Strøm
+Sulitjelma Turistsenter,"ut-no_sulitjelma-turistsenter,-campingen-i-daja",Privat,Selvbetjent,4,Sulitjelmafjellan,Spesialnøkkel,Hele året,Strøm
+Jakobsbakken,ut-no_jakobsbakken,Privat,Betjent,16,Sulitjelmafjellan,Spesialnøkkel,Hele året,
+Tjalalveshytta,ut-no_tjalalveshytta,DNT,Ubetjent,25,Sulitjelmafjellan,DNT-Nøkkel,Hele året,Strøm
+Tjoarvihytta,ut-no_tjoarvihytta,DNT,Ubetjent,9,Sulitjelmafjellan,DNT-Nøkkel,Hele året,Strøm
+Balvasshyttene,ut-no_balvasshyttene,DNT,Ubetjent,8,Sulitjelmafjellan,DNT-Nøkkel,Hele året,Strøm
+Argaladhytta,ut-no_argaladhytta,DNT,Ubetjent,8,Sulitjelmafjellan,Åpen,Hele året,Strøm
+Trygvebu,ut-no_trygvebu,DNT,Ubetjent,16,Sulitjelmafjellan,Åpen,Hele året,Strøm
+Graddis fjellstue,ut-no_graddis-fjellstue,Privat,Betjent,0,Nordland,Betjent,?,
+Lønsstua,ut-no_lnsstua,DNT,Ubetjent,33,Nordland,DNT-Nøkkel,Hele året,Strøm
+Midtistua,ut-no_midtistua,DNT,Ubetjent,16,Nordland,Åpen,Hele året,Strøm
+Saltfjellstua,ut-no_saltfjellstua,DNT,Ubetjent,16,Nordland,DNT-Nøkkel,Hele året,Strøm
+Steinstua ved Krukki,ut-no_steinstua-ved-krukki,Statsskog,Nødbu,0,Nordland,Åpen,Hele året,
+Krukkistua,ut-no_krukkistua,DNT,Ubetjent,12,Nordland,DNT-Nøkkel,Hele året,Strøm
+Kvitsteindalskøta,ut-no_kvitsteindalskta,Statsskog,Nødbu,0,Nordland,Åpen,Hele året,
+Raudfjelldalskoia,ut-no_raudfjelldalskoia,DNT,Nødbu,0,Nordland,DNT-Nøkkel,Hele året,
+Køta i Stokkalia,ut-no_kta-i-stokkalia,Statsskog,Ubetjent,2,Nordland,Åpen,Hele året,Jordgamme
+Bolnastua,ut-no_bolnastua,DNT,Ubetjent,15,Nordland,DNT-Nøkkel,Hele året,Strøm
+Nordre løa på Tomasstranda,ut-no_nordre-la-p-tomasstranda,Statsskog,Nødbu,0,Nordland,Åpen,Hele året,
+Søndre løa på Tomasstranda,ut-no_sndre-la-p-tomasstranda,Statsskog,Nødbu,0,Nordland,Åpen,Hele året,
+Verdalen,ut-no_verdalen,Statsskog,Ubetjent,2,Nordland,Åpen,Hele året,
+Randalskåta,ut-no_randalskta,Statsskog,Ubetjent,2,Nordland,Åpen,Hele året,Jordgamme
+Corraskoia,ut-no_corraskoia,DNT,Nødbu,0,Nordland,Åpen,Hele året,
+Virvasshytta,ut-no_virvasshytta,DNT,Ubetjent,16,Nordland,DNT-Nøkkel,Hele året,Strøm
+Kvepsendalskoia,ut-no_kvepsendalskoia,DNT,Nødbu,0,Nordland,Åpen,Hele året,
+Kvitsteindalstunet,ut-no_kvitsteindalstunet,DNT,Ubetjent,16,Nordland,DNT-Nøkkel,Hele året,Strøm
+Sauvasshytta,ut-no_sauvasshytta,DNT,Ubetjent,9,Nordland,DNT-Nøkkel,Hele året,Strøm
+Umbukta fjellstue,ut-no_umbukta-fjellstue,Privat,Betjent,25,Nordland,Betjent,Hele året,Strøm
+Grasfjellkoia,ut-no_grasfjellkoia,DNT,Nødbu,0,Nordland,Åpen,Hele året,
+Kjensvasshytta,ut-no_kjensvasshytta,DNT,Ubetjent,15,Nordland,DNT-Nøkkel,Hele året,Strøm
+Gressvasshytta,ut-no_gressvasshytta,DNT,Ubetjent,14,Nordland,DNT-Nøkkel,Hele året,Strøm. Hytta er stengt
+Spjeltfjelldalskøta,ut-no_spjeltfjelldalskta,Statsskog,Ubetjent,2,Nordland,Åpen,Hele året,Jordgamme
+Stekvasselv gård,ut-no_stekvasselv-grd,Privat,Betjent,15,Nordland,Betjent,Hele året,Strøm
+Sivertgården,ut-no_sivertgrden,Privat,Betjent,0,Nordland,Betjent,?,
+Krutvasshytta,ut-no_krutvasshytta,Statsskog,Ubetjent,4,Nordland,Åpen,?,
+Tverelvnes gård,ut-no_tverelvnes-grd,Privat,Betjent,13,Nordland,Betjent,Hele året,Strøm
+Grannes Camping,ut-no_grannes-camping,Privat,Betjent,30,Nordland,Betjent,Hele året,Strøm
+Daningen,ut-no_daningen,Privat,Ubetjent,6,Nordland,?,?,
+Møteplass Børgefjell,ut-no_mteplass-brgefjell,Privat,Betjent,20,Nordland,Betjent,Hele året,Strøm
+Furuheim gård,ut-no_furuheim-grd,Privat,Betjent,8,Nordland,Betjent,Hele året,Strøm
+Tiplingen skogstue,ut-no_tiplingen-skogstue,Statsskog,Ubetjent,6,Nordland,Spesialnøkkel,Hele året,
+Ranserbua,ut-no_ranserbua,Statsskog,Ubetjent,3,Nordland,Åpen,Hele året,
+Viermahytta,ut-no_viermahytta,Privat,Ubetjent,0,Nordland,?,?,
+Bustadslåtten,ut-no_bustadsltten,Privat,Ubetjent,0,Nordland,?,?,
+Børgefjellbua,ut-no_brgefjellbua,Privat,Ubetjent,0,Nordland,?,?,
+Bustadmo,ut-no_bustadmo,Privat,Ubetjent,0,Nordland,?,Hele året,
+Solgløtt,ut-no_solgltt,Privat,Ubetjent,6,Nordland,Spesialnøkkel,Vinterstengt,
+Øvre Mykkelvikseter,ut-no_vre-mykkelvikseter,Privat,Ubetjent,0,Nordland,?,?,
+Skorovashøtta,ut-no_skorovashtta,DNT,Selvbetjent,12,SkjækerBlåFjella,DNT-Nøkkel,Hele året,Strøm
+Messa Skorovatn,ut-no_messa-skorovatn,Privat,Betjent,20,SkjækerBlåFjella,Betjent,Hele året,Strøm
+Finnkruhøtta,ut-no_finnkruhtta,DNT,Selvbetjent,4,SkjækerBlåFjella,DNT-Nøkkel,Hele året,
+Midtre Nesåvatnet,ut-no_midtre-nesvatnet,Privat,Ubetjent,0,SkjækerBlåFjella,Spesialnøkkel,Hele året,
+Kopmajoki,ut-no_kopmajoki,Privat,Nødbu,0,TromsFinnmark,?,?,
+Pihtsusjärvi,ut-no_pihtsusjrvi,Privat,Ubetjent,10,TromsFinnmark,Åpen,Hele året,
+Meekonjärvi,ut-no_meekonjrvi,Privat,Nødbu,0,TromsFinnmark,?,?,
+Kuonjarjoki,ut-no_kuonjarjoki,Privat,Ubetjent,10,TromsFinnmark,Åpen,?,
+Saarijärvi,ut-no_saarijrvi,Privat,Nødbu,0,TromsFinnmark,Åpen,Hele året,
+Lapland Hotels Kilpis,ut-no_lapland-hotels-kilpis,Privat,Betjent,0,TromsFinnmark,Betjent,?,
+Kilpisjärven Retkeilykeskus,ut-no_kilpisjrven-retkeilykeskus,Privat,Betjent,56,TromsFinnmark,Betjent,?,Strøm
+Kuohkimajärvi,ut-no_kuohkimajrvi,Privat,Nødbu,0,TromsFinnmark,Åpen,Hele året,
+Goldahytta,ut-no_goldahytta,DNT,Ubetjent,22,TromsFinnmark,DNT-Nøkkel,Hele året,
+Gappohytta,ut-no_gappohytta,DNT,Ubetjent,24,TromsFinnmark,DNT-Nøkkel,Hele året,Strøm
+Moskanhytta,ut-no_moskanhytta,Statsskog,Ubetjent,3,TromsFinnmark,Åpen,Hele året,
+Pältsa Fjällstuga,ut-no_pltsa-fjllstuga,STF,Ubetjent,22,TromsFinnmark,?,?,Nødtelefon
+Rostahytta,ut-no_rostahytta,DNT,Ubetjent,33,TromsFinnmark,DNT-Nøkkel,Hele året,Strøm
+Stor-Rostahytta,ut-no_stor-rostahytta,Statsskog,Ubetjent,4,TromsFinnmark,Åpen,Hele året,
+Dærtahytta,ut-no_drtahytta,DNT,Ubetjent,23,TromsFinnmark,DNT-Nøkkel,Hele året,
+Dividalshytta,ut-no_dividalshytta,DNT,Ubetjent,16,TromsFinnmark,DNT-Nøkkel,Hele året,
+Ole Nergårdbua,ut-no_ole-nergrdbua,Statsskog,Ubetjent,2,TromsFinnmark,Åpen,Hele året,
+Fossbua,ut-no_fossbua,Statsskog,Ubetjent,3,TromsFinnmark,Åpen,Hele året,
+Veslnesbua,ut-no_veslnesbua,Statsskog,Ubetjent,3,TromsFinnmark,Åpen,Hele året,
+Vuomahytta,ut-no_vuomahytta,DNT,Ubetjent,25,TromsFinnmark,DNT-Nøkkel,Hele året,Strøm
+Gaskashytta,ut-no_gaskashytta,DNT,Ubetjent,18,TromsFinnmark,DNT-Nøkkel,Hele året,
+Koievassbua,ut-no_koievassbua,Statsskog,Ubetjent,3,TromsFinnmark,Åpen,Hele året,
+Altevasshytta,ut-no_altevasshytta,DNT,Ubetjent,17,TromsFinnmark,Spesialnøkkel,Hele året,
+Lappjordhytta,ut-no_lappjordhytta,DNT,Ubetjent,14,TromsFinnmark,DNT-Nøkkel,Hele året,
+Pålnostugan,ut-no_plnostugan,STF,Ubetjent,6,TromsFinnmark,Åpen,Hele året,Nødtelefon
+Låktatjåkkastugan,ut-no_lktatjkkastugan,Privat,Betjent,0,TromsFinnmark,?,?,
+Stordalsstua,ut-no_stordalsstua,DNT,Ubetjent,8,TromsFinnmark,DNT-Nøkkel,Hele året,
+Riksgransen Vandrarhem,ut-no_riksgrnsen-vandrarhem,Privat,Betjent,0,TromsFinnmark,Betjent,Hele året,Strøm
+Vokterboligen,ut-no_vokterboligen,DNT,Ubetjent,12,TromsFinnmark,Spesialnøkkel,Hele året,Strøm
+Katterat fjellstue,ut-no_katterat-fjellstue,Privat,Betjent,30,TromsFinnmark,Betjent,?,Strøm
+Hunddalshytta,ut-no_hunddalshytta,DNT,Ubetjent,14,TromsFinnmark,DNT-Nøkkel,Hele året,
+Oallavagge,ut-no_oallavagge,DNT,Nødbu,0,TromsFinnmark,Åpen,Hele året,
+Unna Allakas Fjällstuga,ut-no_unna-allakas-fjllstuga,STF,Selvbetjent,18,TromsFinnmark,?,?,Nødtelefon
+Cunojávrihytta,ut-no_cunojvrihytta,DNT,Ubetjent,9,TromsFinnmark,DNT-Nøkkel,Hele året,Strøm
+Storsteinshytta,ut-no_storsteinshytta,DNT,Ubetjent,4,TromsFinnmark,Spesialnøkkel,Hele året,
+Lossihytta,ut-no_lossihytta,DNT,Ubetjent,10,TromsFinnmark,DNT-Nøkkel,Hele året,Strøm
+Cáihnavággihytta,ut-no_cihnavggihytta,DNT,Ubetjent,9,TromsFinnmark,DNT-Nøkkel,Hele året,
+Gautelishytta,ut-no_gautelishytta,DNT,Ubetjent,12,TromsFinnmark,DNT-Nøkkel,Hele året,Strøm
+Skoaddejávre,ut-no_skoaddejvre,DNT,Ubetjent,12,TromsFinnmark,DNT-Nøkkel,Hele året,
+Sitashytta,ut-no_sitashytta,DNT,Ubetjent,8,TromsFinnmark,DNT-Nøkkel,Hele året,Strøm
+Baugebua,ut-no_baugebua,DNT,Ubetjent,2,TromsFinnmark,DNT-Nøkkel,Hele året,
+Paurohytta,ut-no_paurohytta,DNT,Ubetjent,12,TromsFinnmark,DNT-Nøkkel,Hele året,Strøm
+Røysvatn,ut-no_rysvatn,DNT,Ubetjent,12,TromsFinnmark,DNT-Nøkkel,Hele året,
+Sitasjaure Fjällstuga,ut-no_sitasjaure-fjllstuga,STF,Ubetjent,28,TromsFinnmark,?,?,Nødtelefon
+Gamma i Nuortakrågge,ut-no_gamma-i-nuortakrgge,Privat,Nødbu,4,TromsFinnmark,?,Hele året,Jordgamme
+Ritsem Fjällstation,ut-no_ritsem-fjllstation,STF,Selvbetjent,80,TromsFinnmark,?,?,Nødtelefon
+Vaisaluokta Fjällstuga,ut-no_vaisaluokta-fjllstuga,STF,Ubetjent,20,TromsFinnmark,?,?,Nødtelefon
+Ahkká-stugorna ,ut-no_hkk-stugorna-,Privat,Ubetjent,40,TromsFinnmark,?,?,Nødtelefon
+Kutjaure Fjällstuga,ut-no_kutjaure-fjllstuga,STF,Ubetjent,20,TromsFinnmark,?,?,Nødtelefon
+Låddejåhkå,loddejohka,Privat,Betjent,32,TromsFinnmark,?,?,Nødtelefon
+Arasluokta Fjällstuga,ut-no_rasluokta-fjllstuga,STF,Ubetjent,32,TromsFinnmark,?,?,
+Stáloluokta Fjällstuga,ut-no_stloluokta-fjllstuga,Privat,Selvbetjent,42,TromsFinnmark,?,?,
+Stáddájåhkå Fjällstuga,ut-no_stddjhk-fjllstuga,Privat,Ubetjent,18,TromsFinnmark,?,Hele året,
+Sårjåsjaure Fjällstuga,ut-no_srjsjaure-fjllstuga,STF,Ubetjent,8,TromsFinnmark,Åpen,Hele året,
+Sorjushyttene,ut-no_sorjushyttene,DNT,Ubetjent,16,Sulitjelmafjellan,DNT-Nøkkel,Hele året,Strøm
+Vannfjordhytta,ut-no_vannfjordhytta,DNT,Nødbu,0,TromsFinnmark,Åpen,Hele året,
+Várdáncokka,ut-no_vrdncokka,Privat,Nødbu,0,TromsFinnmark,?,?,
+Stohpojohka,ut-no_stohpojohka,Privat,Ubetjent,5,TromsFinnmark,?,?,
+Olderfjord hotell,ut-no_olderfjord-hotell,Privat,Betjent,0,TromsFinnmark,Betjent,Sommeråpent,
+Bastingammen,ut-no_bastingammen,Privat,Ubetjent,3,TromsFinnmark,Åpen,Hele året,
+Reinbukkelvhytta,ut-no_reinbukkelvhytta,DNT,Nødbu,2,TromsFinnmark,Åpen,Hele året,
+Bojobæskihytta,ut-no_bojobskihytta,DNT,Ubetjent,8,TromsFinnmark,DNT-Nøkkel,Hele året,
+Joatkajávri fjellstue,ut-no_joatkajvri-fjellstue,Privat,Betjent,32,TromsFinnmark,Betjent,Hele året,Proviantsalg
+Mollesjohka fjellstue,-mollisjok-fjellstue,Privat,Betjent,30,TromsFinnmark,?,?,Strøm
+Rágesluobbalat,ut-no_rgesluobbalat,Privat,Ubetjent,4,TromsFinnmark,?,?,
+Masi Turistsenter,ut-no_masi-turistsenter,Privat,Betjent,20,TromsFinnmark,?,?,
+Kautokeino Villmarkssenter,ut-no_kautokeino-villmarkssenter,Privat,Betjent,0,TromsFinnmark,?,?,
+Reisavannhytta,ut-no_reisavannhytta,Statsskog,Ubetjent,6,TromsFinnmark,Spesialnøkkel,Hele året,Strøm
+Luovdigammen,-arturgammen,Statsskog,Ubetjent,2,TromsFinnmark,Åpen,Hele året,
+Imogammen,ut-no_imogammen,Statsskog,Ubetjent,2,TromsFinnmark,Åpen,Hele året,
+Nedrefosshytta,ut-no_nedrefosshytta,DNT,Ubetjent,16,TromsFinnmark,Spesialnøkkel,Hele året,
+Vuomatakka,ut-no_vuomatakka,Statsskog,Ubetjent,2,TromsFinnmark,Åpen,Hele året,
+Sieimahytta,ut-no_sieimahytta,Statsskog,Ubetjent,4,TromsFinnmark,Åpen,Hele året,
+Nordkalottstua,ut-no_nordkalottstua---ovi-raishiin,Privat,Ubetjent,4,TromsFinnmark,Spesialnøkkel,Hele året,
+Biltohytta,ut-no_biltohytta,Statsskog,Ubetjent,10,TromsFinnmark,Spesialnøkkel,Hele året,
+Saraelv,ut-no_saraelv,Privat,Ubetjent,8,TromsFinnmark,?,?,
